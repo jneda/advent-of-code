@@ -56,11 +56,7 @@ function buildRelationsTable(data: [string, string, number][]) {
 function buildGraph(nodes: string[]) {
   const graph: Graph = {};
   for (const node of nodes) {
-    graph[node] = [];
-    const neighbors = [...nodes].filter((n) => n !== node);
-    for (const neighbor of neighbors) {
-      graph[node].push(neighbor);
-    }
+    graph[node] = [...nodes].filter((n) => n !== node);
   }
   return graph;
 }
