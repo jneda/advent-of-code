@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Puzzle Visualizer</title>
+    <style>
+      body {
+        background-color: #262626;
+        margin: 0;
+        padding: 0;
+        image-rendering: crisp-edges;
+        /* height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center; */
+      }
+      canvas {
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧩</text></svg>"
+    />
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script>
+      const canvas = document.getElementById("canvas");
+      const ctx = canvas.getContext("2d");
+      const TILESIZE = 5;
+      const SIZE = 140 * TILESIZE;
+      canvas.width = SIZE;
+      canvas.height = SIZE;
+      const STROKE_STYLE = "#cecece";
+      const LINE_WIDTH = 0.0625;
+
+      let data;
+      fetch("./output.json")
+        .then((res) => {
+          // console.log(res);
+          return res.json();
+        })
+        .then((json) => {
+          data = json;
+          // console.log(data);
+          const {
+            numbersData,
+            symbolsCoordinates,
+            validNumbers,
+            invalidNumbers,
+            gearsMap,
+            actualGearsMap,
+          } = data;
+          if (!validNumbers || !invalidNumbers) {
+            console.error("Invalid data");
+            return;
+          }
+
+          visualizeData(
+            validNumbers,
+            invalidNumbers,
+            symbolsCoordinates,
+            gearsMap,
+            actualGearsMap
+          );
+          attachClickHandler(validNumbers, invalidNumbers);
+        });
+
+      function attachClickHandler(validNumbers, invalidNumbers) {
+        document.addEventListener("click", (e) => {
+          const x = Math.floor(e.offsetX / TILESIZE);
+          const y = Math.floor(e.offsetY / TILESIZE);
+
+          const clickedValidNumbers = validNumbers.filter((n) =>
+            n.coordinates.includes(`${x},${y}`)
+          );
+          const clickedInvalidNumbers = invalidNumbers.filter((n) =>
+            n.coordinates.includes(`${x},${y}`)
+          );
+
+          console.log(`Click at ${x},${y}`);
+          console.log("Valid numbers:", clickedValidNumbers);
+          console.log("Invalid numbers:", clickedInvalidNumbers);
+        });
+      }
+
+      function visualizeData(
+        validNumbers,
+        invalidNumbers,
+        symbolsCoordinates,
+        gearsMap,
+        actualGearsMap
+      ) {
+        drawBorders();
+        drawGrid();
+
+        for (const numberData of validNumbers) {
+          for (const coords of numberData.coordinates) {
+            drawSquare(coords, "lightyellow");
+          }
+        }
+        for (const numberData of invalidNumbers) {
+          for (const coords of numberData.coordinates) {
+            drawSquare(coords, "indianred");
+          }
+        }
+        for (const symbolCoords of symbolsCoordinates) {
+          drawSquare(symbolCoords, "lightgreen");
+        }
+        for (const coords in gearsMap) {
+          drawSquare(coords, "darkgreen");
+        }
+        for (const coords in actualGearsMap) {
+          drawSquare(coords, "gold");
+        }
+      }
+
+      function drawSquare(coords, color) {
+        ctx.fillStyle = color;
+        const [x, y] = coords.split(",").map((n) => parseInt(n));
+        ctx.fillRect(x * TILESIZE, y * TILESIZE, TILESIZE, TILESIZE);
+      }
+
+      function strokeSquare(coords, strokeStyle) {
+        ctx.strokeStyle = strokeStyle;
+        ctx.lineWidth = LINE_WIDTH * 4;
+        const [x, y] = coords.split(",").map((n) => parseInt(n));
+        ctx.strokeRect(x * TILESIZE, y * TILESIZE, TILESIZE, TILESIZE);
+      }
+
+      function drawBorders() {
+        ctx.strokeStyle = STROKE_STYLE;
+        ctx.lineWidth = LINE_WIDTH;
+        ctx.strokeRect(0, 0, SIZE - 1, SIZE - 1);
+      }
+
+      function drawGrid() {
+        ctx.strokeStyle = STROKE_STYLE;
+        ctx.lineWidth = LINE_WIDTH;
+        ctx.beginPath();
+        for (let i = TILESIZE; i < SIZE; i += TILESIZE) {
+          ctx.moveTo(i, 0);
+          ctx.lineTo(i, SIZE - 1);
+          ctx.moveTo(0, i);
+          ctx.lineTo(SIZE - 1, i);
+        }
+        ctx.closePath();
+        ctx.stroke();
+      }
+    </script>
+  </body>
+</html>

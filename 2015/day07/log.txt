@@ -1,0 +1,2500 @@
+exploring from a
+unpowered wire, digging down...
+exploring from lx
+unpowered wire, digging down...
+exploring from lw OR lv
+OR gate, branching out
+  exploring from lw
+  unpowered wire, digging down...
+  exploring from lc LSHIFT 1 lw
+  exploring from lc
+  unpowered wire, digging down...
+  exploring from lb OR la
+  OR gate, branching out
+    exploring from lb
+    unpowered wire, digging down...
+    exploring from kh LSHIFT 1 lb
+    exploring from kh
+    unpowered wire, digging down...
+    exploring from kg OR kf
+    OR gate, branching out
+      exploring from kg
+      unpowered wire, digging down...
+      exploring from jm LSHIFT 1 kg
+      exploring from jm
+      unpowered wire, digging down...
+      exploring from jl OR jk
+      OR gate, branching out
+        exploring from jl
+        unpowered wire, digging down...
+        exploring from ir LSHIFT 1 jl
+        exploring from ir
+        unpowered wire, digging down...
+        exploring from iq OR ip
+        OR gate, branching out
+          exploring from iq
+          unpowered wire, digging down...
+          exploring from hw LSHIFT 1 iq
+          exploring from hw
+          unpowered wire, digging down...
+          exploring from hv OR hu
+          OR gate, branching out
+            exploring from hv
+            unpowered wire, digging down...
+            exploring from hb LSHIFT 1 hv
+            exploring from hb
+            unpowered wire, digging down...
+            exploring from ha OR gz
+            OR gate, branching out
+              exploring from ha
+              unpowered wire, digging down...
+              exploring from gg LSHIFT 1 ha
+              exploring from gg
+              unpowered wire, digging down...
+              exploring from gf OR ge
+              OR gate, branching out
+                exploring from gf
+                unpowered wire, digging down...
+                exploring from fl LSHIFT 1 gf
+                exploring from fl
+                unpowered wire, digging down...
+                exploring from fk OR fj
+                OR gate, branching out
+                  exploring from fk
+                  unpowered wire, digging down...
+                  exploring from eq LSHIFT 1 fk
+                  exploring from eq
+                  unpowered wire, digging down...
+                  exploring from ep OR eo
+                  OR gate, branching out
+                    exploring from ep
+                    unpowered wire, digging down...
+                    exploring from dv LSHIFT 1 ep
+                    exploring from dv
+                    unpowered wire, digging down...
+                    exploring from du OR dt
+                    OR gate, branching out
+                      exploring from du
+                      unpowered wire, digging down...
+                      exploring from da LSHIFT 1 du
+                      exploring from da
+                      unpowered wire, digging down...
+                      exploring from cz OR cy
+                      OR gate, branching out
+                        exploring from cz
+                        unpowered wire, digging down...
+                        exploring from cf LSHIFT 1 cz
+                        exploring from cf
+                        unpowered wire, digging down...
+                        exploring from ce OR cd
+                        OR gate, branching out
+                          exploring from ce
+                          unpowered wire, digging down...
+                          exploring from bk LSHIFT 1 ce
+                          exploring from bk
+                          unpowered wire, digging down...
+                          exploring from bj OR bi
+                          OR gate, branching out
+                            exploring from bj
+                            unpowered wire, digging down...
+                            exploring from ap LSHIFT 1 bj
+                            exploring from ap
+                            unpowered wire, digging down...
+                            exploring from ao OR an
+                            OR gate, branching out
+                              exploring from ao
+                              unpowered wire, digging down...
+                              exploring from u LSHIFT 1 ao
+                              exploring from u
+                              unpowered wire, digging down...
+                              exploring from t OR s
+                              OR gate, branching out
+                                exploring from t
+                                unpowered wire, digging down...
+                                exploring from c LSHIFT 1 t
+                                exploring from c
+                                unpowered wire, digging down...
+                                exploring from 0
+                                found and cached signal 0
+                                computed and cached 0 LSHIFT 1 -> 0
+                              OR gate, first value found (0), exploring second branch...
+                                exploring from s
+                                unpowered wire, digging down...
+                                exploring from 1 AND r
+                                AND gate, branching out
+                                  exploring from 1
+                                  found and cached signal 1
+                                AND gate, first value found (1), exploring second branch...
+                                  exploring from r
+                                  unpowered wire, digging down...
+                                  exploring from o AND q
+                                  AND gate, branching out
+                                    exploring from o
+                                    unpowered wire, digging down...
+                                    exploring from b OR n
+                                    OR gate, branching out
+                                      exploring from b
+                                      unpowered wire, digging down...
+                                      exploring from 3176
+                                      found and cached signal 3176
+                                    OR gate, first value found (3176), exploring second branch...
+                                      exploring from n
+                                      unpowered wire, digging down...
+                                      exploring from k AND m
+                                      AND gate, branching out
+                                        exploring from k
+                                        unpowered wire, digging down...
+                                        exploring from d OR j
+                                        OR gate, branching out
+                                          exploring from d
+                                          unpowered wire, digging down...
+                                          exploring from b RSHIFT 2 d
+                                          exploring from b
+                                          unpowered wire, digging down...
+                                          exploring from 3176
+                                          retrieved value from cache: 3176
+                                          computed and cached 3176 RSHIFT 2 -> 794
+                                        OR gate, first value found (794), exploring second branch...
+                                          exploring from j
+                                          unpowered wire, digging down...
+                                          exploring from g AND i
+                                          AND gate, branching out
+                                            exploring from g
+                                            unpowered wire, digging down...
+                                            exploring from e OR f
+                                            OR gate, branching out
+                                              exploring from e
+                                              unpowered wire, digging down...
+                                              exploring from b RSHIFT 3 e
+                                              exploring from b
+                                              unpowered wire, digging down...
+                                              exploring from 3176
+                                              retrieved value from cache: 3176
+                                              computed and cached 3176 RSHIFT 3 -> 397
+                                            OR gate, first value found (397), exploring second branch...
+                                              exploring from f
+                                              unpowered wire, digging down...
+                                              exploring from b RSHIFT 5 f
+                                              exploring from b
+                                              unpowered wire, digging down...
+                                              exploring from 3176
+                                              retrieved value from cache: 3176
+                                              computed and cached 3176 RSHIFT 5 -> 99
+                                            computed and cached 397 OR 99 -> 495
+                                          AND gate, first value found (495), exploring second branch...
+                                            exploring from i
+                                            unpowered wire, digging down...
+                                            exploring from h NOT i
+                                            exploring from h
+                                            unpowered wire, digging down...
+                                            exploring from e AND f
+                                            AND gate, branching out
+                                              exploring from e
+                                              unpowered wire, digging down...
+                                              exploring from b RSHIFT 3 e
+                                              retrieved value from cache: 397
+                                            AND gate, first value found (397), exploring second branch...
+                                              exploring from f
+                                              unpowered wire, digging down...
+                                              exploring from b RSHIFT 5 f
+                                              retrieved value from cache: 99
+                                            computed and cached 397 AND 99 -> 1
+                                            computed and cached NOT 1 -> 65534
+                                          computed and cached 495 AND 65534 -> 494
+                                        computed and cached 794 OR 494 -> 1022
+                                      AND gate, first value found (1022), exploring second branch...
+                                        exploring from m
+                                        unpowered wire, digging down...
+                                        exploring from l NOT m
+                                        exploring from l
+                                        unpowered wire, digging down...
+                                        exploring from d AND j
+                                        AND gate, branching out
+                                          exploring from d
+                                          unpowered wire, digging down...
+                                          exploring from b RSHIFT 2 d
+                                          retrieved value from cache: 794
+                                        AND gate, first value found (794), exploring second branch...
+                                          exploring from j
+                                          unpowered wire, digging down...
+                                          exploring from g AND i
+                                          retrieved value from cache: 494
+                                        computed and cached 794 AND 494 -> 266
+                                        computed and cached NOT 266 -> 65269
+                                      computed and cached 1022 AND 65269 -> 756
+                                    computed and cached 3176 OR 756 -> 3836
+                                  AND gate, first value found (3836), exploring second branch...
+                                    exploring from q
+                                    unpowered wire, digging down...
+                                    exploring from p NOT q
+                                    exploring from p
+                                    unpowered wire, digging down...
+                                    exploring from b AND n
+                                    AND gate, branching out
+                                      exploring from b
+                                      unpowered wire, digging down...
+                                      exploring from 3176
+                                      retrieved value from cache: 3176
+                                    AND gate, first value found (3176), exploring second branch...
+                                      exploring from n
+                                      unpowered wire, digging down...
+                                      exploring from k AND m
+                                      retrieved value from cache: 756
+                                    computed and cached 3176 AND 756 -> 96
+                                    computed and cached NOT 96 -> 65439
+                                  computed and cached 3836 AND 65439 -> 3740
+                                computed and cached 1 AND 3740 -> 0
+                              computed and cached 0 OR 0 -> 0
+                              computed and cached 0 LSHIFT 1 -> 0
+                            OR gate, first value found (0), exploring second branch...
+                              exploring from an
+                              unpowered wire, digging down...
+                              exploring from 1 AND am
+                              AND gate, branching out
+                                exploring from 1
+                                retrieved value from cache: 1
+                              AND gate, first value found (1), exploring second branch...
+                                exploring from am
+                                unpowered wire, digging down...
+                                exploring from aj AND al
+                                AND gate, branching out
+                                  exploring from aj
+                                  unpowered wire, digging down...
+                                  exploring from x OR ai
+                                  OR gate, branching out
+                                    exploring from x
+                                    unpowered wire, digging down...
+                                    exploring from v OR w
+                                    OR gate, branching out
+                                      exploring from v
+                                      unpowered wire, digging down...
+                                      exploring from b RSHIFT 1 v
+                                      exploring from b
+                                      unpowered wire, digging down...
+                                      exploring from 3176
+                                      retrieved value from cache: 3176
+                                      computed and cached 3176 RSHIFT 1 -> 1588
+                                    OR gate, first value found (1588), exploring second branch...
+                                      exploring from w
+                                      unpowered wire, digging down...
+                                      exploring from s LSHIFT 15 w
+                                      exploring from s
+                                      unpowered wire, digging down...
+                                      exploring from 1 AND r
+                                      AND gate, branching out
+                                        exploring from 1
+                                        retrieved value from cache: 1
+                                      AND gate, first value found (1), exploring second branch...
+                                        exploring from r
+                                        unpowered wire, digging down...
+                                        exploring from o AND q
+                                        retrieved value from cache: 3740
+                                      computed and cached 1 AND 3740 -> 0
+                                      computed and cached 0 LSHIFT 15 -> 0
+                                    computed and cached 1588 OR 0 -> 1588
+                                  OR gate, first value found (1588), exploring second branch...
+                                    exploring from ai
+                                    unpowered wire, digging down...
+                                    exploring from af AND ah
+                                    AND gate, branching out
+                                      exploring from af
+                                      unpowered wire, digging down...
+                                      exploring from y OR ae
+                                      OR gate, branching out
+                                        exploring from y
+                                        unpowered wire, digging down...
+                                        exploring from x RSHIFT 2 y
+                                        exploring from x
+                                        unpowered wire, digging down...
+                                        exploring from v OR w
+                                        retrieved value from cache: 1588
+                                        computed and cached 1588 RSHIFT 2 -> 397
+                                      OR gate, first value found (397), exploring second branch...
+                                        exploring from ae
+                                        unpowered wire, digging down...
+                                        exploring from ab AND ad
+                                        AND gate, branching out
+                                          exploring from ab
+                                          unpowered wire, digging down...
+                                          exploring from z OR aa
+                                          OR gate, branching out
+                                            exploring from z
+                                            unpowered wire, digging down...
+                                            exploring from x RSHIFT 3 z
+                                            exploring from x
+                                            unpowered wire, digging down...
+                                            exploring from v OR w
+                                            retrieved value from cache: 1588
+                                            computed and cached 1588 RSHIFT 3 -> 198
+                                          OR gate, first value found (198), exploring second branch...
+                                            exploring from aa
+                                            unpowered wire, digging down...
+                                            exploring from x RSHIFT 5 aa
+                                            exploring from x
+                                            unpowered wire, digging down...
+                                            exploring from v OR w
+                                            retrieved value from cache: 1588
+                                            computed and cached 1588 RSHIFT 5 -> 49
+                                          computed and cached 198 OR 49 -> 247
+                                        AND gate, first value found (247), exploring second branch...
+                                          exploring from ad
+                                          unpowered wire, digging down...
+                                          exploring from ac NOT ad
+                                          exploring from ac
+                                          unpowered wire, digging down...
+                                          exploring from z AND aa
+                                          AND gate, branching out
+                                            exploring from z
+                                            unpowered wire, digging down...
+                                            exploring from x RSHIFT 3 z
+                                            retrieved value from cache: 198
+                                          AND gate, first value found (198), exploring second branch...
+                                            exploring from aa
+                                            unpowered wire, digging down...
+                                            exploring from x RSHIFT 5 aa
+                                            retrieved value from cache: 49
+                                          computed and cached 198 AND 49 -> 0
+                                          computed and cached NOT 0 -> 65535
+                                        computed and cached 247 AND 65535 -> 247
+                                      computed and cached 397 OR 247 -> 511
+                                    AND gate, first value found (511), exploring second branch...
+                                      exploring from ah
+                                      unpowered wire, digging down...
+                                      exploring from ag NOT ah
+                                      exploring from ag
+                                      unpowered wire, digging down...
+                                      exploring from y AND ae
+                                      AND gate, branching out
+                                        exploring from y
+                                        unpowered wire, digging down...
+                                        exploring from x RSHIFT 2 y
+                                        retrieved value from cache: 397
+                                      AND gate, first value found (397), exploring second branch...
+                                        exploring from ae
+                                        unpowered wire, digging down...
+                                        exploring from ab AND ad
+                                        retrieved value from cache: 247
+                                      computed and cached 397 AND 247 -> 133
+                                      computed and cached NOT 133 -> 65402
+                                    computed and cached 511 AND 65402 -> 378
+                                  computed and cached 1588 OR 378 -> 1918
+                                AND gate, first value found (1918), exploring second branch...
+                                  exploring from al
+                                  unpowered wire, digging down...
+                                  exploring from ak NOT al
+                                  exploring from ak
+                                  unpowered wire, digging down...
+                                  exploring from x AND ai
+                                  AND gate, branching out
+                                    exploring from x
+                                    unpowered wire, digging down...
+                                    exploring from v OR w
+                                    retrieved value from cache: 1588
+                                  AND gate, first value found (1588), exploring second branch...
+                                    exploring from ai
+                                    unpowered wire, digging down...
+                                    exploring from af AND ah
+                                    retrieved value from cache: 378
+                                  computed and cached 1588 AND 378 -> 48
+                                  computed and cached NOT 48 -> 65487
+                                computed and cached 1918 AND 65487 -> 1870
+                              computed and cached 1 AND 1870 -> 0
+                            computed and cached 0 OR 0 -> 0
+                            computed and cached 0 LSHIFT 1 -> 0
+                          OR gate, first value found (0), exploring second branch...
+                            exploring from bi
+                            unpowered wire, digging down...
+                            exploring from 1 AND bh
+                            AND gate, branching out
+                              exploring from 1
+                              retrieved value from cache: 1
+                            AND gate, first value found (1), exploring second branch...
+                              exploring from bh
+                              unpowered wire, digging down...
+                              exploring from be AND bg
+                              AND gate, branching out
+                                exploring from be
+                                unpowered wire, digging down...
+                                exploring from as OR bd
+                                OR gate, branching out
+                                  exploring from as
+                                  unpowered wire, digging down...
+                                  exploring from aq OR ar
+                                  OR gate, branching out
+                                    exploring from aq
+                                    unpowered wire, digging down...
+                                    exploring from x RSHIFT 1 aq
+                                    exploring from x
+                                    unpowered wire, digging down...
+                                    exploring from v OR w
+                                    retrieved value from cache: 1588
+                                    computed and cached 1588 RSHIFT 1 -> 794
+                                  OR gate, first value found (794), exploring second branch...
+                                    exploring from ar
+                                    unpowered wire, digging down...
+                                    exploring from an LSHIFT 15 ar
+                                    exploring from an
+                                    unpowered wire, digging down...
+                                    exploring from 1 AND am
+                                    AND gate, branching out
+                                      exploring from 1
+                                      retrieved value from cache: 1
+                                    AND gate, first value found (1), exploring second branch...
+                                      exploring from am
+                                      unpowered wire, digging down...
+                                      exploring from aj AND al
+                                      retrieved value from cache: 1870
+                                    computed and cached 1 AND 1870 -> 0
+                                    computed and cached 0 LSHIFT 15 -> 0
+                                  computed and cached 794 OR 0 -> 794
+                                OR gate, first value found (794), exploring second branch...
+                                  exploring from bd
+                                  unpowered wire, digging down...
+                                  exploring from ba AND bc
+                                  AND gate, branching out
+                                    exploring from ba
+                                    unpowered wire, digging down...
+                                    exploring from at OR az
+                                    OR gate, branching out
+                                      exploring from at
+                                      unpowered wire, digging down...
+                                      exploring from as RSHIFT 2 at
+                                      exploring from as
+                                      unpowered wire, digging down...
+                                      exploring from aq OR ar
+                                      retrieved value from cache: 794
+                                      computed and cached 794 RSHIFT 2 -> 198
+                                    OR gate, first value found (198), exploring second branch...
+                                      exploring from az
+                                      unpowered wire, digging down...
+                                      exploring from aw AND ay
+                                      AND gate, branching out
+                                        exploring from aw
+                                        unpowered wire, digging down...
+                                        exploring from au OR av
+                                        OR gate, branching out
+                                          exploring from au
+                                          unpowered wire, digging down...
+                                          exploring from as RSHIFT 3 au
+                                          exploring from as
+                                          unpowered wire, digging down...
+                                          exploring from aq OR ar
+                                          retrieved value from cache: 794
+                                          computed and cached 794 RSHIFT 3 -> 99
+                                        OR gate, first value found (99), exploring second branch...
+                                          exploring from av
+                                          unpowered wire, digging down...
+                                          exploring from as RSHIFT 5 av
+                                          exploring from as
+                                          unpowered wire, digging down...
+                                          exploring from aq OR ar
+                                          retrieved value from cache: 794
+                                          computed and cached 794 RSHIFT 5 -> 24
+                                        computed and cached 99 OR 24 -> 123
+                                      AND gate, first value found (123), exploring second branch...
+                                        exploring from ay
+                                        unpowered wire, digging down...
+                                        exploring from ax NOT ay
+                                        exploring from ax
+                                        unpowered wire, digging down...
+                                        exploring from au AND av
+                                        AND gate, branching out
+                                          exploring from au
+                                          unpowered wire, digging down...
+                                          exploring from as RSHIFT 3 au
+                                          retrieved value from cache: 99
+                                        AND gate, first value found (99), exploring second branch...
+                                          exploring from av
+                                          unpowered wire, digging down...
+                                          exploring from as RSHIFT 5 av
+                                          retrieved value from cache: 24
+                                        computed and cached 99 AND 24 -> 0
+                                        computed and cached NOT 0 -> 65535
+                                      computed and cached 123 AND 65535 -> 123
+                                    computed and cached 198 OR 123 -> 255
+                                  AND gate, first value found (255), exploring second branch...
+                                    exploring from bc
+                                    unpowered wire, digging down...
+                                    exploring from bb NOT bc
+                                    exploring from bb
+                                    unpowered wire, digging down...
+                                    exploring from at AND az
+                                    AND gate, branching out
+                                      exploring from at
+                                      unpowered wire, digging down...
+                                      exploring from as RSHIFT 2 at
+                                      retrieved value from cache: 198
+                                    AND gate, first value found (198), exploring second branch...
+                                      exploring from az
+                                      unpowered wire, digging down...
+                                      exploring from aw AND ay
+                                      retrieved value from cache: 123
+                                    computed and cached 198 AND 123 -> 66
+                                    computed and cached NOT 66 -> 65469
+                                  computed and cached 255 AND 65469 -> 189
+                                computed and cached 794 OR 189 -> 959
+                              AND gate, first value found (959), exploring second branch...
+                                exploring from bg
+                                unpowered wire, digging down...
+                                exploring from bf NOT bg
+                                exploring from bf
+                                unpowered wire, digging down...
+                                exploring from as AND bd
+                                AND gate, branching out
+                                  exploring from as
+                                  unpowered wire, digging down...
+                                  exploring from aq OR ar
+                                  retrieved value from cache: 794
+                                AND gate, first value found (794), exploring second branch...
+                                  exploring from bd
+                                  unpowered wire, digging down...
+                                  exploring from ba AND bc
+                                  retrieved value from cache: 189
+                                computed and cached 794 AND 189 -> 24
+                                computed and cached NOT 24 -> 65511
+                              computed and cached 959 AND 65511 -> 935
+                            computed and cached 1 AND 935 -> 1
+                          computed and cached 0 OR 1 -> 1
+                          computed and cached 1 LSHIFT 1 -> 2
+                        OR gate, first value found (2), exploring second branch...
+                          exploring from cd
+                          unpowered wire, digging down...
+                          exploring from 1 AND cc
+                          AND gate, branching out
+                            exploring from 1
+                            retrieved value from cache: 1
+                          AND gate, first value found (1), exploring second branch...
+                            exploring from cc
+                            unpowered wire, digging down...
+                            exploring from bz AND cb
+                            AND gate, branching out
+                              exploring from bz
+                              unpowered wire, digging down...
+                              exploring from bn OR by
+                              OR gate, branching out
+                                exploring from bn
+                                unpowered wire, digging down...
+                                exploring from bl OR bm
+                                OR gate, branching out
+                                  exploring from bl
+                                  unpowered wire, digging down...
+                                  exploring from as RSHIFT 1 bl
+                                  exploring from as
+                                  unpowered wire, digging down...
+                                  exploring from aq OR ar
+                                  retrieved value from cache: 794
+                                  computed and cached 794 RSHIFT 1 -> 397
+                                OR gate, first value found (397), exploring second branch...
+                                  exploring from bm
+                                  unpowered wire, digging down...
+                                  exploring from bi LSHIFT 15 bm
+                                  exploring from bi
+                                  unpowered wire, digging down...
+                                  exploring from 1 AND bh
+                                  retrieved value from cache: 1
+                                  computed and cached 1 LSHIFT 15 -> 32768
+                                computed and cached 397 OR 32768 -> 33165
+                              OR gate, first value found (33165), exploring second branch...
+                                exploring from by
+                                unpowered wire, digging down...
+                                exploring from bv AND bx
+                                AND gate, branching out
+                                  exploring from bv
+                                  unpowered wire, digging down...
+                                  exploring from bo OR bu
+                                  OR gate, branching out
+                                    exploring from bo
+                                    unpowered wire, digging down...
+                                    exploring from bn RSHIFT 2 bo
+                                    exploring from bn
+                                    unpowered wire, digging down...
+                                    exploring from bl OR bm
+                                    retrieved value from cache: 33165
+                                    computed and cached 33165 RSHIFT 2 -> 8291
+                                  OR gate, first value found (8291), exploring second branch...
+                                    exploring from bu
+                                    unpowered wire, digging down...
+                                    exploring from br AND bt
+                                    AND gate, branching out
+                                      exploring from br
+                                      unpowered wire, digging down...
+                                      exploring from bp OR bq
+                                      OR gate, branching out
+                                        exploring from bp
+                                        unpowered wire, digging down...
+                                        exploring from bn RSHIFT 3 bp
+                                        exploring from bn
+                                        unpowered wire, digging down...
+                                        exploring from bl OR bm
+                                        retrieved value from cache: 33165
+                                        computed and cached 33165 RSHIFT 3 -> 4145
+                                      OR gate, first value found (4145), exploring second branch...
+                                        exploring from bq
+                                        unpowered wire, digging down...
+                                        exploring from bn RSHIFT 5 bq
+                                        exploring from bn
+                                        unpowered wire, digging down...
+                                        exploring from bl OR bm
+                                        retrieved value from cache: 33165
+                                        computed and cached 33165 RSHIFT 5 -> 1036
+                                      computed and cached 4145 OR 1036 -> 5181
+                                    AND gate, first value found (5181), exploring second branch...
+                                      exploring from bt
+                                      unpowered wire, digging down...
+                                      exploring from bs NOT bt
+                                      exploring from bs
+                                      unpowered wire, digging down...
+                                      exploring from bp AND bq
+                                      AND gate, branching out
+                                        exploring from bp
+                                        unpowered wire, digging down...
+                                        exploring from bn RSHIFT 3 bp
+                                        retrieved value from cache: 4145
+                                      AND gate, first value found (4145), exploring second branch...
+                                        exploring from bq
+                                        unpowered wire, digging down...
+                                        exploring from bn RSHIFT 5 bq
+                                        retrieved value from cache: 1036
+                                      computed and cached 4145 AND 1036 -> 0
+                                      computed and cached NOT 0 -> 65535
+                                    computed and cached 5181 AND 65535 -> 5181
+                                  computed and cached 8291 OR 5181 -> 13439
+                                AND gate, first value found (13439), exploring second branch...
+                                  exploring from bx
+                                  unpowered wire, digging down...
+                                  exploring from bw NOT bx
+                                  exploring from bw
+                                  unpowered wire, digging down...
+                                  exploring from bo AND bu
+                                  AND gate, branching out
+                                    exploring from bo
+                                    unpowered wire, digging down...
+                                    exploring from bn RSHIFT 2 bo
+                                    retrieved value from cache: 8291
+                                  AND gate, first value found (8291), exploring second branch...
+                                    exploring from bu
+                                    unpowered wire, digging down...
+                                    exploring from br AND bt
+                                    retrieved value from cache: 5181
+                                  computed and cached 8291 AND 5181 -> 33
+                                  computed and cached NOT 33 -> 65502
+                                computed and cached 13439 AND 65502 -> 13406
+                              computed and cached 33165 OR 13406 -> 46559
+                            AND gate, first value found (46559), exploring second branch...
+                              exploring from cb
+                              unpowered wire, digging down...
+                              exploring from ca NOT cb
+                              exploring from ca
+                              unpowered wire, digging down...
+                              exploring from bn AND by
+                              AND gate, branching out
+                                exploring from bn
+                                unpowered wire, digging down...
+                                exploring from bl OR bm
+                                retrieved value from cache: 33165
+                              AND gate, first value found (33165), exploring second branch...
+                                exploring from by
+                                unpowered wire, digging down...
+                                exploring from bv AND bx
+                                retrieved value from cache: 13406
+                              computed and cached 33165 AND 13406 -> 12
+                              computed and cached NOT 12 -> 65523
+                            computed and cached 46559 AND 65523 -> 46547
+                          computed and cached 1 AND 46547 -> 1
+                        computed and cached 2 OR 1 -> 3
+                        computed and cached 3 LSHIFT 1 -> 6
+                      OR gate, first value found (6), exploring second branch...
+                        exploring from cy
+                        unpowered wire, digging down...
+                        exploring from 1 AND cx
+                        AND gate, branching out
+                          exploring from 1
+                          retrieved value from cache: 1
+                        AND gate, first value found (1), exploring second branch...
+                          exploring from cx
+                          unpowered wire, digging down...
+                          exploring from cu AND cw
+                          AND gate, branching out
+                            exploring from cu
+                            unpowered wire, digging down...
+                            exploring from ci OR ct
+                            OR gate, branching out
+                              exploring from ci
+                              unpowered wire, digging down...
+                              exploring from cg OR ch
+                              OR gate, branching out
+                                exploring from cg
+                                unpowered wire, digging down...
+                                exploring from bn RSHIFT 1 cg
+                                exploring from bn
+                                unpowered wire, digging down...
+                                exploring from bl OR bm
+                                retrieved value from cache: 33165
+                                computed and cached 33165 RSHIFT 1 -> 16582
+                              OR gate, first value found (16582), exploring second branch...
+                                exploring from ch
+                                unpowered wire, digging down...
+                                exploring from cd LSHIFT 15 ch
+                                exploring from cd
+                                unpowered wire, digging down...
+                                exploring from 1 AND cc
+                                retrieved value from cache: 1
+                                computed and cached 1 LSHIFT 15 -> 32768
+                              computed and cached 16582 OR 32768 -> 49350
+                            OR gate, first value found (49350), exploring second branch...
+                              exploring from ct
+                              unpowered wire, digging down...
+                              exploring from cq AND cs
+                              AND gate, branching out
+                                exploring from cq
+                                unpowered wire, digging down...
+                                exploring from cj OR cp
+                                OR gate, branching out
+                                  exploring from cj
+                                  unpowered wire, digging down...
+                                  exploring from ci RSHIFT 2 cj
+                                  exploring from ci
+                                  unpowered wire, digging down...
+                                  exploring from cg OR ch
+                                  retrieved value from cache: 49350
+                                  computed and cached 49350 RSHIFT 2 -> 12337
+                                OR gate, first value found (12337), exploring second branch...
+                                  exploring from cp
+                                  unpowered wire, digging down...
+                                  exploring from cm AND co
+                                  AND gate, branching out
+                                    exploring from cm
+                                    unpowered wire, digging down...
+                                    exploring from ck OR cl
+                                    OR gate, branching out
+                                      exploring from ck
+                                      unpowered wire, digging down...
+                                      exploring from ci RSHIFT 3 ck
+                                      exploring from ci
+                                      unpowered wire, digging down...
+                                      exploring from cg OR ch
+                                      retrieved value from cache: 49350
+                                      computed and cached 49350 RSHIFT 3 -> 6168
+                                    OR gate, first value found (6168), exploring second branch...
+                                      exploring from cl
+                                      unpowered wire, digging down...
+                                      exploring from ci RSHIFT 5 cl
+                                      exploring from ci
+                                      unpowered wire, digging down...
+                                      exploring from cg OR ch
+                                      retrieved value from cache: 49350
+                                      computed and cached 49350 RSHIFT 5 -> 1542
+                                    computed and cached 6168 OR 1542 -> 7710
+                                  AND gate, first value found (7710), exploring second branch...
+                                    exploring from co
+                                    unpowered wire, digging down...
+                                    exploring from cn NOT co
+                                    exploring from cn
+                                    unpowered wire, digging down...
+                                    exploring from ck AND cl
+                                    AND gate, branching out
+                                      exploring from ck
+                                      unpowered wire, digging down...
+                                      exploring from ci RSHIFT 3 ck
+                                      retrieved value from cache: 6168
+                                    AND gate, first value found (6168), exploring second branch...
+                                      exploring from cl
+                                      unpowered wire, digging down...
+                                      exploring from ci RSHIFT 5 cl
+                                      retrieved value from cache: 1542
+                                    computed and cached 6168 AND 1542 -> 0
+                                    computed and cached NOT 0 -> 65535
+                                  computed and cached 7710 AND 65535 -> 7710
+                                computed and cached 12337 OR 7710 -> 15935
+                              AND gate, first value found (15935), exploring second branch...
+                                exploring from cs
+                                unpowered wire, digging down...
+                                exploring from cr NOT cs
+                                exploring from cr
+                                unpowered wire, digging down...
+                                exploring from cj AND cp
+                                AND gate, branching out
+                                  exploring from cj
+                                  unpowered wire, digging down...
+                                  exploring from ci RSHIFT 2 cj
+                                  retrieved value from cache: 12337
+                                AND gate, first value found (12337), exploring second branch...
+                                  exploring from cp
+                                  unpowered wire, digging down...
+                                  exploring from cm AND co
+                                  retrieved value from cache: 7710
+                                computed and cached 12337 AND 7710 -> 4112
+                                computed and cached NOT 4112 -> 61423
+                              computed and cached 15935 AND 61423 -> 11823
+                            computed and cached 49350 OR 11823 -> 61167
+                          AND gate, first value found (61167), exploring second branch...
+                            exploring from cw
+                            unpowered wire, digging down...
+                            exploring from cv NOT cw
+                            exploring from cv
+                            unpowered wire, digging down...
+                            exploring from ci AND ct
+                            AND gate, branching out
+                              exploring from ci
+                              unpowered wire, digging down...
+                              exploring from cg OR ch
+                              retrieved value from cache: 49350
+                            AND gate, first value found (49350), exploring second branch...
+                              exploring from ct
+                              unpowered wire, digging down...
+                              exploring from cq AND cs
+                              retrieved value from cache: 11823
+                            computed and cached 49350 AND 11823 -> 6
+                            computed and cached NOT 6 -> 65529
+                          computed and cached 61167 AND 65529 -> 61161
+                        computed and cached 1 AND 61161 -> 1
+                      computed and cached 6 OR 1 -> 7
+                      computed and cached 7 LSHIFT 1 -> 14
+                    OR gate, first value found (14), exploring second branch...
+                      exploring from dt
+                      unpowered wire, digging down...
+                      exploring from 1 AND ds
+                      AND gate, branching out
+                        exploring from 1
+                        retrieved value from cache: 1
+                      AND gate, first value found (1), exploring second branch...
+                        exploring from ds
+                        unpowered wire, digging down...
+                        exploring from dp AND dr
+                        AND gate, branching out
+                          exploring from dp
+                          unpowered wire, digging down...
+                          exploring from dd OR do
+                          OR gate, branching out
+                            exploring from dd
+                            unpowered wire, digging down...
+                            exploring from db OR dc
+                            OR gate, branching out
+                              exploring from db
+                              unpowered wire, digging down...
+                              exploring from ci RSHIFT 1 db
+                              exploring from ci
+                              unpowered wire, digging down...
+                              exploring from cg OR ch
+                              retrieved value from cache: 49350
+                              computed and cached 49350 RSHIFT 1 -> 24675
+                            OR gate, first value found (24675), exploring second branch...
+                              exploring from dc
+                              unpowered wire, digging down...
+                              exploring from cy LSHIFT 15 dc
+                              exploring from cy
+                              unpowered wire, digging down...
+                              exploring from 1 AND cx
+                              retrieved value from cache: 1
+                              computed and cached 1 LSHIFT 15 -> 32768
+                            computed and cached 24675 OR 32768 -> 57443
+                          OR gate, first value found (57443), exploring second branch...
+                            exploring from do
+                            unpowered wire, digging down...
+                            exploring from dl AND dn
+                            AND gate, branching out
+                              exploring from dl
+                              unpowered wire, digging down...
+                              exploring from de OR dk
+                              OR gate, branching out
+                                exploring from de
+                                unpowered wire, digging down...
+                                exploring from dd RSHIFT 2 de
+                                exploring from dd
+                                unpowered wire, digging down...
+                                exploring from db OR dc
+                                retrieved value from cache: 57443
+                                computed and cached 57443 RSHIFT 2 -> 14360
+                              OR gate, first value found (14360), exploring second branch...
+                                exploring from dk
+                                unpowered wire, digging down...
+                                exploring from dh AND dj
+                                AND gate, branching out
+                                  exploring from dh
+                                  unpowered wire, digging down...
+                                  exploring from df OR dg
+                                  OR gate, branching out
+                                    exploring from df
+                                    unpowered wire, digging down...
+                                    exploring from dd RSHIFT 3 df
+                                    exploring from dd
+                                    unpowered wire, digging down...
+                                    exploring from db OR dc
+                                    retrieved value from cache: 57443
+                                    computed and cached 57443 RSHIFT 3 -> 7180
+                                  OR gate, first value found (7180), exploring second branch...
+                                    exploring from dg
+                                    unpowered wire, digging down...
+                                    exploring from dd RSHIFT 5 dg
+                                    exploring from dd
+                                    unpowered wire, digging down...
+                                    exploring from db OR dc
+                                    retrieved value from cache: 57443
+                                    computed and cached 57443 RSHIFT 5 -> 1795
+                                  computed and cached 7180 OR 1795 -> 7951
+                                AND gate, first value found (7951), exploring second branch...
+                                  exploring from dj
+                                  unpowered wire, digging down...
+                                  exploring from di NOT dj
+                                  exploring from di
+                                  unpowered wire, digging down...
+                                  exploring from df AND dg
+                                  AND gate, branching out
+                                    exploring from df
+                                    unpowered wire, digging down...
+                                    exploring from dd RSHIFT 3 df
+                                    retrieved value from cache: 7180
+                                  AND gate, first value found (7180), exploring second branch...
+                                    exploring from dg
+                                    unpowered wire, digging down...
+                                    exploring from dd RSHIFT 5 dg
+                                    retrieved value from cache: 1795
+                                  computed and cached 7180 AND 1795 -> 1024
+                                  computed and cached NOT 1024 -> 64511
+                                computed and cached 7951 AND 64511 -> 6927
+                              computed and cached 14360 OR 6927 -> 15135
+                            AND gate, first value found (15135), exploring second branch...
+                              exploring from dn
+                              unpowered wire, digging down...
+                              exploring from dm NOT dn
+                              exploring from dm
+                              unpowered wire, digging down...
+                              exploring from de AND dk
+                              AND gate, branching out
+                                exploring from de
+                                unpowered wire, digging down...
+                                exploring from dd RSHIFT 2 de
+                                retrieved value from cache: 14360
+                              AND gate, first value found (14360), exploring second branch...
+                                exploring from dk
+                                unpowered wire, digging down...
+                                exploring from dh AND dj
+                                retrieved value from cache: 6927
+                              computed and cached 14360 AND 6927 -> 6152
+                              computed and cached NOT 6152 -> 59383
+                            computed and cached 15135 AND 59383 -> 8983
+                          computed and cached 57443 OR 8983 -> 58231
+                        AND gate, first value found (58231), exploring second branch...
+                          exploring from dr
+                          unpowered wire, digging down...
+                          exploring from dq NOT dr
+                          exploring from dq
+                          unpowered wire, digging down...
+                          exploring from dd AND do
+                          AND gate, branching out
+                            exploring from dd
+                            unpowered wire, digging down...
+                            exploring from db OR dc
+                            retrieved value from cache: 57443
+                          AND gate, first value found (57443), exploring second branch...
+                            exploring from do
+                            unpowered wire, digging down...
+                            exploring from dl AND dn
+                            retrieved value from cache: 8983
+                          computed and cached 57443 AND 8983 -> 8195
+                          computed and cached NOT 8195 -> 57340
+                        computed and cached 58231 AND 57340 -> 50036
+                      computed and cached 1 AND 50036 -> 0
+                    computed and cached 14 OR 0 -> 14
+                    computed and cached 14 LSHIFT 1 -> 28
+                  OR gate, first value found (28), exploring second branch...
+                    exploring from eo
+                    unpowered wire, digging down...
+                    exploring from 1 AND en
+                    AND gate, branching out
+                      exploring from 1
+                      retrieved value from cache: 1
+                    AND gate, first value found (1), exploring second branch...
+                      exploring from en
+                      unpowered wire, digging down...
+                      exploring from ek AND em
+                      AND gate, branching out
+                        exploring from ek
+                        unpowered wire, digging down...
+                        exploring from dy OR ej
+                        OR gate, branching out
+                          exploring from dy
+                          unpowered wire, digging down...
+                          exploring from dw OR dx
+                          OR gate, branching out
+                            exploring from dw
+                            unpowered wire, digging down...
+                            exploring from dd RSHIFT 1 dw
+                            exploring from dd
+                            unpowered wire, digging down...
+                            exploring from db OR dc
+                            retrieved value from cache: 57443
+                            computed and cached 57443 RSHIFT 1 -> 28721
+                          OR gate, first value found (28721), exploring second branch...
+                            exploring from dx
+                            unpowered wire, digging down...
+                            exploring from dt LSHIFT 15 dx
+                            exploring from dt
+                            unpowered wire, digging down...
+                            exploring from 1 AND ds
+                            AND gate, branching out
+                              exploring from 1
+                              retrieved value from cache: 1
+                            AND gate, first value found (1), exploring second branch...
+                              exploring from ds
+                              unpowered wire, digging down...
+                              exploring from dp AND dr
+                              retrieved value from cache: 50036
+                            computed and cached 1 AND 50036 -> 0
+                            computed and cached 0 LSHIFT 15 -> 0
+                          computed and cached 28721 OR 0 -> 28721
+                        OR gate, first value found (28721), exploring second branch...
+                          exploring from ej
+                          unpowered wire, digging down...
+                          exploring from eg AND ei
+                          AND gate, branching out
+                            exploring from eg
+                            unpowered wire, digging down...
+                            exploring from dz OR ef
+                            OR gate, branching out
+                              exploring from dz
+                              unpowered wire, digging down...
+                              exploring from dy RSHIFT 2 dz
+                              exploring from dy
+                              unpowered wire, digging down...
+                              exploring from dw OR dx
+                              retrieved value from cache: 28721
+                              computed and cached 28721 RSHIFT 2 -> 7180
+                            OR gate, first value found (7180), exploring second branch...
+                              exploring from ef
+                              unpowered wire, digging down...
+                              exploring from ec AND ee
+                              AND gate, branching out
+                                exploring from ec
+                                unpowered wire, digging down...
+                                exploring from ea OR eb
+                                OR gate, branching out
+                                  exploring from ea
+                                  unpowered wire, digging down...
+                                  exploring from dy RSHIFT 3 ea
+                                  exploring from dy
+                                  unpowered wire, digging down...
+                                  exploring from dw OR dx
+                                  retrieved value from cache: 28721
+                                  computed and cached 28721 RSHIFT 3 -> 3590
+                                OR gate, first value found (3590), exploring second branch...
+                                  exploring from eb
+                                  unpowered wire, digging down...
+                                  exploring from dy RSHIFT 5 eb
+                                  exploring from dy
+                                  unpowered wire, digging down...
+                                  exploring from dw OR dx
+                                  retrieved value from cache: 28721
+                                  computed and cached 28721 RSHIFT 5 -> 897
+                                computed and cached 3590 OR 897 -> 3975
+                              AND gate, first value found (3975), exploring second branch...
+                                exploring from ee
+                                unpowered wire, digging down...
+                                exploring from ed NOT ee
+                                exploring from ed
+                                unpowered wire, digging down...
+                                exploring from ea AND eb
+                                AND gate, branching out
+                                  exploring from ea
+                                  unpowered wire, digging down...
+                                  exploring from dy RSHIFT 3 ea
+                                  retrieved value from cache: 3590
+                                AND gate, first value found (3590), exploring second branch...
+                                  exploring from eb
+                                  unpowered wire, digging down...
+                                  exploring from dy RSHIFT 5 eb
+                                  retrieved value from cache: 897
+                                computed and cached 3590 AND 897 -> 512
+                                computed and cached NOT 512 -> 65023
+                              computed and cached 3975 AND 65023 -> 3463
+                            computed and cached 7180 OR 3463 -> 7567
+                          AND gate, first value found (7567), exploring second branch...
+                            exploring from ei
+                            unpowered wire, digging down...
+                            exploring from eh NOT ei
+                            exploring from eh
+                            unpowered wire, digging down...
+                            exploring from dz AND ef
+                            AND gate, branching out
+                              exploring from dz
+                              unpowered wire, digging down...
+                              exploring from dy RSHIFT 2 dz
+                              retrieved value from cache: 7180
+                            AND gate, first value found (7180), exploring second branch...
+                              exploring from ef
+                              unpowered wire, digging down...
+                              exploring from ec AND ee
+                              retrieved value from cache: 3463
+                            computed and cached 7180 AND 3463 -> 3076
+                            computed and cached NOT 3076 -> 62459
+                          computed and cached 7567 AND 62459 -> 4491
+                        computed and cached 28721 OR 4491 -> 29115
+                      AND gate, first value found (29115), exploring second branch...
+                        exploring from em
+                        unpowered wire, digging down...
+                        exploring from el NOT em
+                        exploring from el
+                        unpowered wire, digging down...
+                        exploring from dy AND ej
+                        AND gate, branching out
+                          exploring from dy
+                          unpowered wire, digging down...
+                          exploring from dw OR dx
+                          retrieved value from cache: 28721
+                        AND gate, first value found (28721), exploring second branch...
+                          exploring from ej
+                          unpowered wire, digging down...
+                          exploring from eg AND ei
+                          retrieved value from cache: 4491
+                        computed and cached 28721 AND 4491 -> 4097
+                        computed and cached NOT 4097 -> 61438
+                      computed and cached 29115 AND 61438 -> 25018
+                    computed and cached 1 AND 25018 -> 0
+                  computed and cached 28 OR 0 -> 28
+                  computed and cached 28 LSHIFT 1 -> 56
+                OR gate, first value found (56), exploring second branch...
+                  exploring from fj
+                  unpowered wire, digging down...
+                  exploring from 1 AND fi
+                  AND gate, branching out
+                    exploring from 1
+                    retrieved value from cache: 1
+                  AND gate, first value found (1), exploring second branch...
+                    exploring from fi
+                    unpowered wire, digging down...
+                    exploring from ff AND fh
+                    AND gate, branching out
+                      exploring from ff
+                      unpowered wire, digging down...
+                      exploring from et OR fe
+                      OR gate, branching out
+                        exploring from et
+                        unpowered wire, digging down...
+                        exploring from er OR es
+                        OR gate, branching out
+                          exploring from er
+                          unpowered wire, digging down...
+                          exploring from dy RSHIFT 1 er
+                          exploring from dy
+                          unpowered wire, digging down...
+                          exploring from dw OR dx
+                          retrieved value from cache: 28721
+                          computed and cached 28721 RSHIFT 1 -> 14360
+                        OR gate, first value found (14360), exploring second branch...
+                          exploring from es
+                          unpowered wire, digging down...
+                          exploring from eo LSHIFT 15 es
+                          exploring from eo
+                          unpowered wire, digging down...
+                          exploring from 1 AND en
+                          AND gate, branching out
+                            exploring from 1
+                            retrieved value from cache: 1
+                          AND gate, first value found (1), exploring second branch...
+                            exploring from en
+                            unpowered wire, digging down...
+                            exploring from ek AND em
+                            retrieved value from cache: 25018
+                          computed and cached 1 AND 25018 -> 0
+                          computed and cached 0 LSHIFT 15 -> 0
+                        computed and cached 14360 OR 0 -> 14360
+                      OR gate, first value found (14360), exploring second branch...
+                        exploring from fe
+                        unpowered wire, digging down...
+                        exploring from fb AND fd
+                        AND gate, branching out
+                          exploring from fb
+                          unpowered wire, digging down...
+                          exploring from eu OR fa
+                          OR gate, branching out
+                            exploring from eu
+                            unpowered wire, digging down...
+                            exploring from et RSHIFT 2 eu
+                            exploring from et
+                            unpowered wire, digging down...
+                            exploring from er OR es
+                            retrieved value from cache: 14360
+                            computed and cached 14360 RSHIFT 2 -> 3590
+                          OR gate, first value found (3590), exploring second branch...
+                            exploring from fa
+                            unpowered wire, digging down...
+                            exploring from ex AND ez
+                            AND gate, branching out
+                              exploring from ex
+                              unpowered wire, digging down...
+                              exploring from ev OR ew
+                              OR gate, branching out
+                                exploring from ev
+                                unpowered wire, digging down...
+                                exploring from et RSHIFT 3 ev
+                                exploring from et
+                                unpowered wire, digging down...
+                                exploring from er OR es
+                                retrieved value from cache: 14360
+                                computed and cached 14360 RSHIFT 3 -> 1795
+                              OR gate, first value found (1795), exploring second branch...
+                                exploring from ew
+                                unpowered wire, digging down...
+                                exploring from et RSHIFT 5 ew
+                                exploring from et
+                                unpowered wire, digging down...
+                                exploring from er OR es
+                                retrieved value from cache: 14360
+                                computed and cached 14360 RSHIFT 5 -> 448
+                              computed and cached 1795 OR 448 -> 1987
+                            AND gate, first value found (1987), exploring second branch...
+                              exploring from ez
+                              unpowered wire, digging down...
+                              exploring from ey NOT ez
+                              exploring from ey
+                              unpowered wire, digging down...
+                              exploring from ev AND ew
+                              AND gate, branching out
+                                exploring from ev
+                                unpowered wire, digging down...
+                                exploring from et RSHIFT 3 ev
+                                retrieved value from cache: 1795
+                              AND gate, first value found (1795), exploring second branch...
+                                exploring from ew
+                                unpowered wire, digging down...
+                                exploring from et RSHIFT 5 ew
+                                retrieved value from cache: 448
+                              computed and cached 1795 AND 448 -> 256
+                              computed and cached NOT 256 -> 65279
+                            computed and cached 1987 AND 65279 -> 1731
+                          computed and cached 3590 OR 1731 -> 3783
+                        AND gate, first value found (3783), exploring second branch...
+                          exploring from fd
+                          unpowered wire, digging down...
+                          exploring from fc NOT fd
+                          exploring from fc
+                          unpowered wire, digging down...
+                          exploring from eu AND fa
+                          AND gate, branching out
+                            exploring from eu
+                            unpowered wire, digging down...
+                            exploring from et RSHIFT 2 eu
+                            retrieved value from cache: 3590
+                          AND gate, first value found (3590), exploring second branch...
+                            exploring from fa
+                            unpowered wire, digging down...
+                            exploring from ex AND ez
+                            retrieved value from cache: 1731
+                          computed and cached 3590 AND 1731 -> 1538
+                          computed and cached NOT 1538 -> 63997
+                        computed and cached 3783 AND 63997 -> 2245
+                      computed and cached 14360 OR 2245 -> 14557
+                    AND gate, first value found (14557), exploring second branch...
+                      exploring from fh
+                      unpowered wire, digging down...
+                      exploring from fg NOT fh
+                      exploring from fg
+                      unpowered wire, digging down...
+                      exploring from et AND fe
+                      AND gate, branching out
+                        exploring from et
+                        unpowered wire, digging down...
+                        exploring from er OR es
+                        retrieved value from cache: 14360
+                      AND gate, first value found (14360), exploring second branch...
+                        exploring from fe
+                        unpowered wire, digging down...
+                        exploring from fb AND fd
+                        retrieved value from cache: 2245
+                      computed and cached 14360 AND 2245 -> 2048
+                      computed and cached NOT 2048 -> 63487
+                    computed and cached 14557 AND 63487 -> 12509
+                  computed and cached 1 AND 12509 -> 1
+                computed and cached 56 OR 1 -> 57
+                computed and cached 57 LSHIFT 1 -> 114
+              OR gate, first value found (114), exploring second branch...
+                exploring from ge
+                unpowered wire, digging down...
+                exploring from 1 AND gd
+                AND gate, branching out
+                  exploring from 1
+                  retrieved value from cache: 1
+                AND gate, first value found (1), exploring second branch...
+                  exploring from gd
+                  unpowered wire, digging down...
+                  exploring from ga AND gc
+                  AND gate, branching out
+                    exploring from ga
+                    unpowered wire, digging down...
+                    exploring from fo OR fz
+                    OR gate, branching out
+                      exploring from fo
+                      unpowered wire, digging down...
+                      exploring from fm OR fn
+                      OR gate, branching out
+                        exploring from fm
+                        unpowered wire, digging down...
+                        exploring from et RSHIFT 1 fm
+                        exploring from et
+                        unpowered wire, digging down...
+                        exploring from er OR es
+                        retrieved value from cache: 14360
+                        computed and cached 14360 RSHIFT 1 -> 7180
+                      OR gate, first value found (7180), exploring second branch...
+                        exploring from fn
+                        unpowered wire, digging down...
+                        exploring from fj LSHIFT 15 fn
+                        exploring from fj
+                        unpowered wire, digging down...
+                        exploring from 1 AND fi
+                        retrieved value from cache: 1
+                        computed and cached 1 LSHIFT 15 -> 32768
+                      computed and cached 7180 OR 32768 -> 39948
+                    OR gate, first value found (39948), exploring second branch...
+                      exploring from fz
+                      unpowered wire, digging down...
+                      exploring from fw AND fy
+                      AND gate, branching out
+                        exploring from fw
+                        unpowered wire, digging down...
+                        exploring from fp OR fv
+                        OR gate, branching out
+                          exploring from fp
+                          unpowered wire, digging down...
+                          exploring from fo RSHIFT 2 fp
+                          exploring from fo
+                          unpowered wire, digging down...
+                          exploring from fm OR fn
+                          retrieved value from cache: 39948
+                          computed and cached 39948 RSHIFT 2 -> 9987
+                        OR gate, first value found (9987), exploring second branch...
+                          exploring from fv
+                          unpowered wire, digging down...
+                          exploring from fs AND fu
+                          AND gate, branching out
+                            exploring from fs
+                            unpowered wire, digging down...
+                            exploring from fq OR fr
+                            OR gate, branching out
+                              exploring from fq
+                              unpowered wire, digging down...
+                              exploring from fo RSHIFT 3 fq
+                              exploring from fo
+                              unpowered wire, digging down...
+                              exploring from fm OR fn
+                              retrieved value from cache: 39948
+                              computed and cached 39948 RSHIFT 3 -> 4993
+                            OR gate, first value found (4993), exploring second branch...
+                              exploring from fr
+                              unpowered wire, digging down...
+                              exploring from fo RSHIFT 5 fr
+                              exploring from fo
+                              unpowered wire, digging down...
+                              exploring from fm OR fn
+                              retrieved value from cache: 39948
+                              computed and cached 39948 RSHIFT 5 -> 1248
+                            computed and cached 4993 OR 1248 -> 6113
+                          AND gate, first value found (6113), exploring second branch...
+                            exploring from fu
+                            unpowered wire, digging down...
+                            exploring from ft NOT fu
+                            exploring from ft
+                            unpowered wire, digging down...
+                            exploring from fq AND fr
+                            AND gate, branching out
+                              exploring from fq
+                              unpowered wire, digging down...
+                              exploring from fo RSHIFT 3 fq
+                              retrieved value from cache: 4993
+                            AND gate, first value found (4993), exploring second branch...
+                              exploring from fr
+                              unpowered wire, digging down...
+                              exploring from fo RSHIFT 5 fr
+                              retrieved value from cache: 1248
+                            computed and cached 4993 AND 1248 -> 128
+                            computed and cached NOT 128 -> 65407
+                          computed and cached 6113 AND 65407 -> 5985
+                        computed and cached 9987 OR 5985 -> 14179
+                      AND gate, first value found (14179), exploring second branch...
+                        exploring from fy
+                        unpowered wire, digging down...
+                        exploring from fx NOT fy
+                        exploring from fx
+                        unpowered wire, digging down...
+                        exploring from fp AND fv
+                        AND gate, branching out
+                          exploring from fp
+                          unpowered wire, digging down...
+                          exploring from fo RSHIFT 2 fp
+                          retrieved value from cache: 9987
+                        AND gate, first value found (9987), exploring second branch...
+                          exploring from fv
+                          unpowered wire, digging down...
+                          exploring from fs AND fu
+                          retrieved value from cache: 5985
+                        computed and cached 9987 AND 5985 -> 1793
+                        computed and cached NOT 1793 -> 63742
+                      computed and cached 14179 AND 63742 -> 12386
+                    computed and cached 39948 OR 12386 -> 48238
+                  AND gate, first value found (48238), exploring second branch...
+                    exploring from gc
+                    unpowered wire, digging down...
+                    exploring from gb NOT gc
+                    exploring from gb
+                    unpowered wire, digging down...
+                    exploring from fo AND fz
+                    AND gate, branching out
+                      exploring from fo
+                      unpowered wire, digging down...
+                      exploring from fm OR fn
+                      retrieved value from cache: 39948
+                    AND gate, first value found (39948), exploring second branch...
+                      exploring from fz
+                      unpowered wire, digging down...
+                      exploring from fw AND fy
+                      retrieved value from cache: 12386
+                    computed and cached 39948 AND 12386 -> 4096
+                    computed and cached NOT 4096 -> 61439
+                  computed and cached 48238 AND 61439 -> 44142
+                computed and cached 1 AND 44142 -> 0
+              computed and cached 114 OR 0 -> 114
+              computed and cached 114 LSHIFT 1 -> 228
+            OR gate, first value found (228), exploring second branch...
+              exploring from gz
+              unpowered wire, digging down...
+              exploring from 1 AND gy
+              AND gate, branching out
+                exploring from 1
+                retrieved value from cache: 1
+              AND gate, first value found (1), exploring second branch...
+                exploring from gy
+                unpowered wire, digging down...
+                exploring from gv AND gx
+                AND gate, branching out
+                  exploring from gv
+                  unpowered wire, digging down...
+                  exploring from gj OR gu
+                  OR gate, branching out
+                    exploring from gj
+                    unpowered wire, digging down...
+                    exploring from gh OR gi
+                    OR gate, branching out
+                      exploring from gh
+                      unpowered wire, digging down...
+                      exploring from fo RSHIFT 1 gh
+                      exploring from fo
+                      unpowered wire, digging down...
+                      exploring from fm OR fn
+                      retrieved value from cache: 39948
+                      computed and cached 39948 RSHIFT 1 -> 19974
+                    OR gate, first value found (19974), exploring second branch...
+                      exploring from gi
+                      unpowered wire, digging down...
+                      exploring from ge LSHIFT 15 gi
+                      exploring from ge
+                      unpowered wire, digging down...
+                      exploring from 1 AND gd
+                      AND gate, branching out
+                        exploring from 1
+                        retrieved value from cache: 1
+                      AND gate, first value found (1), exploring second branch...
+                        exploring from gd
+                        unpowered wire, digging down...
+                        exploring from ga AND gc
+                        retrieved value from cache: 44142
+                      computed and cached 1 AND 44142 -> 0
+                      computed and cached 0 LSHIFT 15 -> 0
+                    computed and cached 19974 OR 0 -> 19974
+                  OR gate, first value found (19974), exploring second branch...
+                    exploring from gu
+                    unpowered wire, digging down...
+                    exploring from gr AND gt
+                    AND gate, branching out
+                      exploring from gr
+                      unpowered wire, digging down...
+                      exploring from gk OR gq
+                      OR gate, branching out
+                        exploring from gk
+                        unpowered wire, digging down...
+                        exploring from gj RSHIFT 2 gk
+                        exploring from gj
+                        unpowered wire, digging down...
+                        exploring from gh OR gi
+                        retrieved value from cache: 19974
+                        computed and cached 19974 RSHIFT 2 -> 4993
+                      OR gate, first value found (4993), exploring second branch...
+                        exploring from gq
+                        unpowered wire, digging down...
+                        exploring from gn AND gp
+                        AND gate, branching out
+                          exploring from gn
+                          unpowered wire, digging down...
+                          exploring from gl OR gm
+                          OR gate, branching out
+                            exploring from gl
+                            unpowered wire, digging down...
+                            exploring from gj RSHIFT 3 gl
+                            exploring from gj
+                            unpowered wire, digging down...
+                            exploring from gh OR gi
+                            retrieved value from cache: 19974
+                            computed and cached 19974 RSHIFT 3 -> 2496
+                          OR gate, first value found (2496), exploring second branch...
+                            exploring from gm
+                            unpowered wire, digging down...
+                            exploring from gj RSHIFT 5 gm
+                            exploring from gj
+                            unpowered wire, digging down...
+                            exploring from gh OR gi
+                            retrieved value from cache: 19974
+                            computed and cached 19974 RSHIFT 5 -> 624
+                          computed and cached 2496 OR 624 -> 3056
+                        AND gate, first value found (3056), exploring second branch...
+                          exploring from gp
+                          unpowered wire, digging down...
+                          exploring from go NOT gp
+                          exploring from go
+                          unpowered wire, digging down...
+                          exploring from gl AND gm
+                          AND gate, branching out
+                            exploring from gl
+                            unpowered wire, digging down...
+                            exploring from gj RSHIFT 3 gl
+                            retrieved value from cache: 2496
+                          AND gate, first value found (2496), exploring second branch...
+                            exploring from gm
+                            unpowered wire, digging down...
+                            exploring from gj RSHIFT 5 gm
+                            retrieved value from cache: 624
+                          computed and cached 2496 AND 624 -> 64
+                          computed and cached NOT 64 -> 65471
+                        computed and cached 3056 AND 65471 -> 2992
+                      computed and cached 4993 OR 2992 -> 7089
+                    AND gate, first value found (7089), exploring second branch...
+                      exploring from gt
+                      unpowered wire, digging down...
+                      exploring from gs NOT gt
+                      exploring from gs
+                      unpowered wire, digging down...
+                      exploring from gk AND gq
+                      AND gate, branching out
+                        exploring from gk
+                        unpowered wire, digging down...
+                        exploring from gj RSHIFT 2 gk
+                        retrieved value from cache: 4993
+                      AND gate, first value found (4993), exploring second branch...
+                        exploring from gq
+                        unpowered wire, digging down...
+                        exploring from gn AND gp
+                        retrieved value from cache: 2992
+                      computed and cached 4993 AND 2992 -> 896
+                      computed and cached NOT 896 -> 64639
+                    computed and cached 7089 AND 64639 -> 6193
+                  computed and cached 19974 OR 6193 -> 24119
+                AND gate, first value found (24119), exploring second branch...
+                  exploring from gx
+                  unpowered wire, digging down...
+                  exploring from gw NOT gx
+                  exploring from gw
+                  unpowered wire, digging down...
+                  exploring from gj AND gu
+                  AND gate, branching out
+                    exploring from gj
+                    unpowered wire, digging down...
+                    exploring from gh OR gi
+                    retrieved value from cache: 19974
+                  AND gate, first value found (19974), exploring second branch...
+                    exploring from gu
+                    unpowered wire, digging down...
+                    exploring from gr AND gt
+                    retrieved value from cache: 6193
+                  computed and cached 19974 AND 6193 -> 2048
+                  computed and cached NOT 2048 -> 63487
+                computed and cached 24119 AND 63487 -> 22071
+              computed and cached 1 AND 22071 -> 1
+            computed and cached 228 OR 1 -> 229
+            computed and cached 229 LSHIFT 1 -> 458
+          OR gate, first value found (458), exploring second branch...
+            exploring from hu
+            unpowered wire, digging down...
+            exploring from 1 AND ht
+            AND gate, branching out
+              exploring from 1
+              retrieved value from cache: 1
+            AND gate, first value found (1), exploring second branch...
+              exploring from ht
+              unpowered wire, digging down...
+              exploring from hq AND hs
+              AND gate, branching out
+                exploring from hq
+                unpowered wire, digging down...
+                exploring from he OR hp
+                OR gate, branching out
+                  exploring from he
+                  unpowered wire, digging down...
+                  exploring from hc OR hd
+                  OR gate, branching out
+                    exploring from hc
+                    unpowered wire, digging down...
+                    exploring from gj RSHIFT 1 hc
+                    exploring from gj
+                    unpowered wire, digging down...
+                    exploring from gh OR gi
+                    retrieved value from cache: 19974
+                    computed and cached 19974 RSHIFT 1 -> 9987
+                  OR gate, first value found (9987), exploring second branch...
+                    exploring from hd
+                    unpowered wire, digging down...
+                    exploring from gz LSHIFT 15 hd
+                    exploring from gz
+                    unpowered wire, digging down...
+                    exploring from 1 AND gy
+                    retrieved value from cache: 1
+                    computed and cached 1 LSHIFT 15 -> 32768
+                  computed and cached 9987 OR 32768 -> 42755
+                OR gate, first value found (42755), exploring second branch...
+                  exploring from hp
+                  unpowered wire, digging down...
+                  exploring from hm AND ho
+                  AND gate, branching out
+                    exploring from hm
+                    unpowered wire, digging down...
+                    exploring from hf OR hl
+                    OR gate, branching out
+                      exploring from hf
+                      unpowered wire, digging down...
+                      exploring from he RSHIFT 2 hf
+                      exploring from he
+                      unpowered wire, digging down...
+                      exploring from hc OR hd
+                      retrieved value from cache: 42755
+                      computed and cached 42755 RSHIFT 2 -> 10688
+                    OR gate, first value found (10688), exploring second branch...
+                      exploring from hl
+                      unpowered wire, digging down...
+                      exploring from hi AND hk
+                      AND gate, branching out
+                        exploring from hi
+                        unpowered wire, digging down...
+                        exploring from hg OR hh
+                        OR gate, branching out
+                          exploring from hg
+                          unpowered wire, digging down...
+                          exploring from he RSHIFT 3 hg
+                          exploring from he
+                          unpowered wire, digging down...
+                          exploring from hc OR hd
+                          retrieved value from cache: 42755
+                          computed and cached 42755 RSHIFT 3 -> 5344
+                        OR gate, first value found (5344), exploring second branch...
+                          exploring from hh
+                          unpowered wire, digging down...
+                          exploring from he RSHIFT 5 hh
+                          exploring from he
+                          unpowered wire, digging down...
+                          exploring from hc OR hd
+                          retrieved value from cache: 42755
+                          computed and cached 42755 RSHIFT 5 -> 1336
+                        computed and cached 5344 OR 1336 -> 5624
+                      AND gate, first value found (5624), exploring second branch...
+                        exploring from hk
+                        unpowered wire, digging down...
+                        exploring from hj NOT hk
+                        exploring from hj
+                        unpowered wire, digging down...
+                        exploring from hg AND hh
+                        AND gate, branching out
+                          exploring from hg
+                          unpowered wire, digging down...
+                          exploring from he RSHIFT 3 hg
+                          retrieved value from cache: 5344
+                        AND gate, first value found (5344), exploring second branch...
+                          exploring from hh
+                          unpowered wire, digging down...
+                          exploring from he RSHIFT 5 hh
+                          retrieved value from cache: 1336
+                        computed and cached 5344 AND 1336 -> 1056
+                        computed and cached NOT 1056 -> 64479
+                      computed and cached 5624 AND 64479 -> 4568
+                    computed and cached 10688 OR 4568 -> 14808
+                  AND gate, first value found (14808), exploring second branch...
+                    exploring from ho
+                    unpowered wire, digging down...
+                    exploring from hn NOT ho
+                    exploring from hn
+                    unpowered wire, digging down...
+                    exploring from hf AND hl
+                    AND gate, branching out
+                      exploring from hf
+                      unpowered wire, digging down...
+                      exploring from he RSHIFT 2 hf
+                      retrieved value from cache: 10688
+                    AND gate, first value found (10688), exploring second branch...
+                      exploring from hl
+                      unpowered wire, digging down...
+                      exploring from hi AND hk
+                      retrieved value from cache: 4568
+                    computed and cached 10688 AND 4568 -> 448
+                    computed and cached NOT 448 -> 65087
+                  computed and cached 14808 AND 65087 -> 14360
+                computed and cached 42755 OR 14360 -> 48923
+              AND gate, first value found (48923), exploring second branch...
+                exploring from hs
+                unpowered wire, digging down...
+                exploring from hr NOT hs
+                exploring from hr
+                unpowered wire, digging down...
+                exploring from he AND hp
+                AND gate, branching out
+                  exploring from he
+                  unpowered wire, digging down...
+                  exploring from hc OR hd
+                  retrieved value from cache: 42755
+                AND gate, first value found (42755), exploring second branch...
+                  exploring from hp
+                  unpowered wire, digging down...
+                  exploring from hm AND ho
+                  retrieved value from cache: 14360
+                computed and cached 42755 AND 14360 -> 8192
+                computed and cached NOT 8192 -> 57343
+              computed and cached 48923 AND 57343 -> 40731
+            computed and cached 1 AND 40731 -> 1
+          computed and cached 458 OR 1 -> 459
+          computed and cached 459 LSHIFT 1 -> 918
+        OR gate, first value found (918), exploring second branch...
+          exploring from ip
+          unpowered wire, digging down...
+          exploring from 1 AND io
+          AND gate, branching out
+            exploring from 1
+            retrieved value from cache: 1
+          AND gate, first value found (1), exploring second branch...
+            exploring from io
+            unpowered wire, digging down...
+            exploring from il AND in
+            AND gate, branching out
+              exploring from il
+              unpowered wire, digging down...
+              exploring from hz OR ik
+              OR gate, branching out
+                exploring from hz
+                unpowered wire, digging down...
+                exploring from hx OR hy
+                OR gate, branching out
+                  exploring from hx
+                  unpowered wire, digging down...
+                  exploring from he RSHIFT 1 hx
+                  exploring from he
+                  unpowered wire, digging down...
+                  exploring from hc OR hd
+                  retrieved value from cache: 42755
+                  computed and cached 42755 RSHIFT 1 -> 21377
+                OR gate, first value found (21377), exploring second branch...
+                  exploring from hy
+                  unpowered wire, digging down...
+                  exploring from hu LSHIFT 15 hy
+                  exploring from hu
+                  unpowered wire, digging down...
+                  exploring from 1 AND ht
+                  retrieved value from cache: 1
+                  computed and cached 1 LSHIFT 15 -> 32768
+                computed and cached 21377 OR 32768 -> 54145
+              OR gate, first value found (54145), exploring second branch...
+                exploring from ik
+                unpowered wire, digging down...
+                exploring from ih AND ij
+                AND gate, branching out
+                  exploring from ih
+                  unpowered wire, digging down...
+                  exploring from ia OR ig
+                  OR gate, branching out
+                    exploring from ia
+                    unpowered wire, digging down...
+                    exploring from hz RSHIFT 2 ia
+                    exploring from hz
+                    unpowered wire, digging down...
+                    exploring from hx OR hy
+                    retrieved value from cache: 54145
+                    computed and cached 54145 RSHIFT 2 -> 13536
+                  OR gate, first value found (13536), exploring second branch...
+                    exploring from ig
+                    unpowered wire, digging down...
+                    exploring from id AND if
+                    AND gate, branching out
+                      exploring from id
+                      unpowered wire, digging down...
+                      exploring from ib OR ic
+                      OR gate, branching out
+                        exploring from ib
+                        unpowered wire, digging down...
+                        exploring from hz RSHIFT 3 ib
+                        exploring from hz
+                        unpowered wire, digging down...
+                        exploring from hx OR hy
+                        retrieved value from cache: 54145
+                        computed and cached 54145 RSHIFT 3 -> 6768
+                      OR gate, first value found (6768), exploring second branch...
+                        exploring from ic
+                        unpowered wire, digging down...
+                        exploring from hz RSHIFT 5 ic
+                        exploring from hz
+                        unpowered wire, digging down...
+                        exploring from hx OR hy
+                        retrieved value from cache: 54145
+                        computed and cached 54145 RSHIFT 5 -> 1692
+                      computed and cached 6768 OR 1692 -> 7932
+                    AND gate, first value found (7932), exploring second branch...
+                      exploring from if
+                      unpowered wire, digging down...
+                      exploring from ie NOT if
+                      exploring from ie
+                      unpowered wire, digging down...
+                      exploring from ib AND ic
+                      AND gate, branching out
+                        exploring from ib
+                        unpowered wire, digging down...
+                        exploring from hz RSHIFT 3 ib
+                        retrieved value from cache: 6768
+                      AND gate, first value found (6768), exploring second branch...
+                        exploring from ic
+                        unpowered wire, digging down...
+                        exploring from hz RSHIFT 5 ic
+                        retrieved value from cache: 1692
+                      computed and cached 6768 AND 1692 -> 528
+                      computed and cached NOT 528 -> 65007
+                    computed and cached 7932 AND 65007 -> 7404
+                  computed and cached 13536 OR 7404 -> 15596
+                AND gate, first value found (15596), exploring second branch...
+                  exploring from ij
+                  unpowered wire, digging down...
+                  exploring from ii NOT ij
+                  exploring from ii
+                  unpowered wire, digging down...
+                  exploring from ia AND ig
+                  AND gate, branching out
+                    exploring from ia
+                    unpowered wire, digging down...
+                    exploring from hz RSHIFT 2 ia
+                    retrieved value from cache: 13536
+                  AND gate, first value found (13536), exploring second branch...
+                    exploring from ig
+                    unpowered wire, digging down...
+                    exploring from id AND if
+                    retrieved value from cache: 7404
+                  computed and cached 13536 AND 7404 -> 5344
+                  computed and cached NOT 5344 -> 60191
+                computed and cached 15596 AND 60191 -> 10252
+              computed and cached 54145 OR 10252 -> 64397
+            AND gate, first value found (64397), exploring second branch...
+              exploring from in
+              unpowered wire, digging down...
+              exploring from im NOT in
+              exploring from im
+              unpowered wire, digging down...
+              exploring from hz AND ik
+              AND gate, branching out
+                exploring from hz
+                unpowered wire, digging down...
+                exploring from hx OR hy
+                retrieved value from cache: 54145
+              AND gate, first value found (54145), exploring second branch...
+                exploring from ik
+                unpowered wire, digging down...
+                exploring from ih AND ij
+                retrieved value from cache: 10252
+              computed and cached 54145 AND 10252 -> 0
+              computed and cached NOT 0 -> 65535
+            computed and cached 64397 AND 65535 -> 64397
+          computed and cached 1 AND 64397 -> 1
+        computed and cached 918 OR 1 -> 919
+        computed and cached 919 LSHIFT 1 -> 1838
+      OR gate, first value found (1838), exploring second branch...
+        exploring from jk
+        unpowered wire, digging down...
+        exploring from 1 AND jj
+        AND gate, branching out
+          exploring from 1
+          retrieved value from cache: 1
+        AND gate, first value found (1), exploring second branch...
+          exploring from jj
+          unpowered wire, digging down...
+          exploring from jg AND ji
+          AND gate, branching out
+            exploring from jg
+            unpowered wire, digging down...
+            exploring from iu OR jf
+            OR gate, branching out
+              exploring from iu
+              unpowered wire, digging down...
+              exploring from is OR it
+              OR gate, branching out
+                exploring from is
+                unpowered wire, digging down...
+                exploring from hz RSHIFT 1 is
+                exploring from hz
+                unpowered wire, digging down...
+                exploring from hx OR hy
+                retrieved value from cache: 54145
+                computed and cached 54145 RSHIFT 1 -> 27072
+              OR gate, first value found (27072), exploring second branch...
+                exploring from it
+                unpowered wire, digging down...
+                exploring from ip LSHIFT 15 it
+                exploring from ip
+                unpowered wire, digging down...
+                exploring from 1 AND io
+                retrieved value from cache: 1
+                computed and cached 1 LSHIFT 15 -> 32768
+              computed and cached 27072 OR 32768 -> 59840
+            OR gate, first value found (59840), exploring second branch...
+              exploring from jf
+              unpowered wire, digging down...
+              exploring from jc AND je
+              AND gate, branching out
+                exploring from jc
+                unpowered wire, digging down...
+                exploring from iv OR jb
+                OR gate, branching out
+                  exploring from iv
+                  unpowered wire, digging down...
+                  exploring from iu RSHIFT 2 iv
+                  exploring from iu
+                  unpowered wire, digging down...
+                  exploring from is OR it
+                  retrieved value from cache: 59840
+                  computed and cached 59840 RSHIFT 2 -> 14960
+                OR gate, first value found (14960), exploring second branch...
+                  exploring from jb
+                  unpowered wire, digging down...
+                  exploring from iy AND ja
+                  AND gate, branching out
+                    exploring from iy
+                    unpowered wire, digging down...
+                    exploring from iw OR ix
+                    OR gate, branching out
+                      exploring from iw
+                      unpowered wire, digging down...
+                      exploring from iu RSHIFT 3 iw
+                      exploring from iu
+                      unpowered wire, digging down...
+                      exploring from is OR it
+                      retrieved value from cache: 59840
+                      computed and cached 59840 RSHIFT 3 -> 7480
+                    OR gate, first value found (7480), exploring second branch...
+                      exploring from ix
+                      unpowered wire, digging down...
+                      exploring from iu RSHIFT 5 ix
+                      exploring from iu
+                      unpowered wire, digging down...
+                      exploring from is OR it
+                      retrieved value from cache: 59840
+                      computed and cached 59840 RSHIFT 5 -> 1870
+                    computed and cached 7480 OR 1870 -> 8062
+                  AND gate, first value found (8062), exploring second branch...
+                    exploring from ja
+                    unpowered wire, digging down...
+                    exploring from iz NOT ja
+                    exploring from iz
+                    unpowered wire, digging down...
+                    exploring from iw AND ix
+                    AND gate, branching out
+                      exploring from iw
+                      unpowered wire, digging down...
+                      exploring from iu RSHIFT 3 iw
+                      retrieved value from cache: 7480
+                    AND gate, first value found (7480), exploring second branch...
+                      exploring from ix
+                      unpowered wire, digging down...
+                      exploring from iu RSHIFT 5 ix
+                      retrieved value from cache: 1870
+                    computed and cached 7480 AND 1870 -> 1288
+                    computed and cached NOT 1288 -> 64247
+                  computed and cached 8062 AND 64247 -> 6774
+                computed and cached 14960 OR 6774 -> 14966
+              AND gate, first value found (14966), exploring second branch...
+                exploring from je
+                unpowered wire, digging down...
+                exploring from jd NOT je
+                exploring from jd
+                unpowered wire, digging down...
+                exploring from iv AND jb
+                AND gate, branching out
+                  exploring from iv
+                  unpowered wire, digging down...
+                  exploring from iu RSHIFT 2 iv
+                  retrieved value from cache: 14960
+                AND gate, first value found (14960), exploring second branch...
+                  exploring from jb
+                  unpowered wire, digging down...
+                  exploring from iy AND ja
+                  retrieved value from cache: 6774
+                computed and cached 14960 AND 6774 -> 6768
+                computed and cached NOT 6768 -> 58767
+              computed and cached 14966 AND 58767 -> 8198
+            computed and cached 59840 OR 8198 -> 59846
+          AND gate, first value found (59846), exploring second branch...
+            exploring from ji
+            unpowered wire, digging down...
+            exploring from jh NOT ji
+            exploring from jh
+            unpowered wire, digging down...
+            exploring from iu AND jf
+            AND gate, branching out
+              exploring from iu
+              unpowered wire, digging down...
+              exploring from is OR it
+              retrieved value from cache: 59840
+            AND gate, first value found (59840), exploring second branch...
+              exploring from jf
+              unpowered wire, digging down...
+              exploring from jc AND je
+              retrieved value from cache: 8198
+            computed and cached 59840 AND 8198 -> 8192
+            computed and cached NOT 8192 -> 57343
+          computed and cached 59846 AND 57343 -> 51654
+        computed and cached 1 AND 51654 -> 0
+      computed and cached 1838 OR 0 -> 1838
+      computed and cached 1838 LSHIFT 1 -> 3676
+    OR gate, first value found (3676), exploring second branch...
+      exploring from kf
+      unpowered wire, digging down...
+      exploring from 1 AND ke
+      AND gate, branching out
+        exploring from 1
+        retrieved value from cache: 1
+      AND gate, first value found (1), exploring second branch...
+        exploring from ke
+        unpowered wire, digging down...
+        exploring from kb AND kd
+        AND gate, branching out
+          exploring from kb
+          unpowered wire, digging down...
+          exploring from jp OR ka
+          OR gate, branching out
+            exploring from jp
+            unpowered wire, digging down...
+            exploring from jn OR jo
+            OR gate, branching out
+              exploring from jn
+              unpowered wire, digging down...
+              exploring from iu RSHIFT 1 jn
+              exploring from iu
+              unpowered wire, digging down...
+              exploring from is OR it
+              retrieved value from cache: 59840
+              computed and cached 59840 RSHIFT 1 -> 29920
+            OR gate, first value found (29920), exploring second branch...
+              exploring from jo
+              unpowered wire, digging down...
+              exploring from jk LSHIFT 15 jo
+              exploring from jk
+              unpowered wire, digging down...
+              exploring from 1 AND jj
+              AND gate, branching out
+                exploring from 1
+                retrieved value from cache: 1
+              AND gate, first value found (1), exploring second branch...
+                exploring from jj
+                unpowered wire, digging down...
+                exploring from jg AND ji
+                retrieved value from cache: 51654
+              computed and cached 1 AND 51654 -> 0
+              computed and cached 0 LSHIFT 15 -> 0
+            computed and cached 29920 OR 0 -> 29920
+          OR gate, first value found (29920), exploring second branch...
+            exploring from ka
+            unpowered wire, digging down...
+            exploring from jx AND jz
+            AND gate, branching out
+              exploring from jx
+              unpowered wire, digging down...
+              exploring from jq OR jw
+              OR gate, branching out
+                exploring from jq
+                unpowered wire, digging down...
+                exploring from jp RSHIFT 2 jq
+                exploring from jp
+                unpowered wire, digging down...
+                exploring from jn OR jo
+                retrieved value from cache: 29920
+                computed and cached 29920 RSHIFT 2 -> 7480
+              OR gate, first value found (7480), exploring second branch...
+                exploring from jw
+                unpowered wire, digging down...
+                exploring from jt AND jv
+                AND gate, branching out
+                  exploring from jt
+                  unpowered wire, digging down...
+                  exploring from jr OR js
+                  OR gate, branching out
+                    exploring from jr
+                    unpowered wire, digging down...
+                    exploring from jp RSHIFT 3 jr
+                    exploring from jp
+                    unpowered wire, digging down...
+                    exploring from jn OR jo
+                    retrieved value from cache: 29920
+                    computed and cached 29920 RSHIFT 3 -> 3740
+                  OR gate, first value found (3740), exploring second branch...
+                    exploring from js
+                    unpowered wire, digging down...
+                    exploring from jp RSHIFT 5 js
+                    exploring from jp
+                    unpowered wire, digging down...
+                    exploring from jn OR jo
+                    retrieved value from cache: 29920
+                    computed and cached 29920 RSHIFT 5 -> 935
+                  computed and cached 3740 OR 935 -> 4031
+                AND gate, first value found (4031), exploring second branch...
+                  exploring from jv
+                  unpowered wire, digging down...
+                  exploring from ju NOT jv
+                  exploring from ju
+                  unpowered wire, digging down...
+                  exploring from jr AND js
+                  AND gate, branching out
+                    exploring from jr
+                    unpowered wire, digging down...
+                    exploring from jp RSHIFT 3 jr
+                    retrieved value from cache: 3740
+                  AND gate, first value found (3740), exploring second branch...
+                    exploring from js
+                    unpowered wire, digging down...
+                    exploring from jp RSHIFT 5 js
+                    retrieved value from cache: 935
+                  computed and cached 3740 AND 935 -> 644
+                  computed and cached NOT 644 -> 64891
+                computed and cached 4031 AND 64891 -> 3387
+              computed and cached 7480 OR 3387 -> 7483
+            AND gate, first value found (7483), exploring second branch...
+              exploring from jz
+              unpowered wire, digging down...
+              exploring from jy NOT jz
+              exploring from jy
+              unpowered wire, digging down...
+              exploring from jq AND jw
+              AND gate, branching out
+                exploring from jq
+                unpowered wire, digging down...
+                exploring from jp RSHIFT 2 jq
+                retrieved value from cache: 7480
+              AND gate, first value found (7480), exploring second branch...
+                exploring from jw
+                unpowered wire, digging down...
+                exploring from jt AND jv
+                retrieved value from cache: 3387
+              computed and cached 7480 AND 3387 -> 3384
+              computed and cached NOT 3384 -> 62151
+            computed and cached 7483 AND 62151 -> 4099
+          computed and cached 29920 OR 4099 -> 29923
+        AND gate, first value found (29923), exploring second branch...
+          exploring from kd
+          unpowered wire, digging down...
+          exploring from kc NOT kd
+          exploring from kc
+          unpowered wire, digging down...
+          exploring from jp AND ka
+          AND gate, branching out
+            exploring from jp
+            unpowered wire, digging down...
+            exploring from jn OR jo
+            retrieved value from cache: 29920
+          AND gate, first value found (29920), exploring second branch...
+            exploring from ka
+            unpowered wire, digging down...
+            exploring from jx AND jz
+            retrieved value from cache: 4099
+          computed and cached 29920 AND 4099 -> 4096
+          computed and cached NOT 4096 -> 61439
+        computed and cached 29923 AND 61439 -> 25827
+      computed and cached 1 AND 25827 -> 1
+    computed and cached 3676 OR 1 -> 3677
+    computed and cached 3677 LSHIFT 1 -> 7354
+  OR gate, first value found (7354), exploring second branch...
+    exploring from la
+    unpowered wire, digging down...
+    exploring from 1 AND kz
+    AND gate, branching out
+      exploring from 1
+      retrieved value from cache: 1
+    AND gate, first value found (1), exploring second branch...
+      exploring from kz
+      unpowered wire, digging down...
+      exploring from kw AND ky
+      AND gate, branching out
+        exploring from kw
+        unpowered wire, digging down...
+        exploring from kk OR kv
+        OR gate, branching out
+          exploring from kk
+          unpowered wire, digging down...
+          exploring from ki OR kj
+          OR gate, branching out
+            exploring from ki
+            unpowered wire, digging down...
+            exploring from jp RSHIFT 1 ki
+            exploring from jp
+            unpowered wire, digging down...
+            exploring from jn OR jo
+            retrieved value from cache: 29920
+            computed and cached 29920 RSHIFT 1 -> 14960
+          OR gate, first value found (14960), exploring second branch...
+            exploring from kj
+            unpowered wire, digging down...
+            exploring from kf LSHIFT 15 kj
+            exploring from kf
+            unpowered wire, digging down...
+            exploring from 1 AND ke
+            retrieved value from cache: 1
+            computed and cached 1 LSHIFT 15 -> 32768
+          computed and cached 14960 OR 32768 -> 47728
+        OR gate, first value found (47728), exploring second branch...
+          exploring from kv
+          unpowered wire, digging down...
+          exploring from ks AND ku
+          AND gate, branching out
+            exploring from ks
+            unpowered wire, digging down...
+            exploring from kl OR kr
+            OR gate, branching out
+              exploring from kl
+              unpowered wire, digging down...
+              exploring from kk RSHIFT 2 kl
+              exploring from kk
+              unpowered wire, digging down...
+              exploring from ki OR kj
+              retrieved value from cache: 47728
+              computed and cached 47728 RSHIFT 2 -> 11932
+            OR gate, first value found (11932), exploring second branch...
+              exploring from kr
+              unpowered wire, digging down...
+              exploring from ko AND kq
+              AND gate, branching out
+                exploring from ko
+                unpowered wire, digging down...
+                exploring from km OR kn
+                OR gate, branching out
+                  exploring from km
+                  unpowered wire, digging down...
+                  exploring from kk RSHIFT 3 km
+                  exploring from kk
+                  unpowered wire, digging down...
+                  exploring from ki OR kj
+                  retrieved value from cache: 47728
+                  computed and cached 47728 RSHIFT 3 -> 5966
+                OR gate, first value found (5966), exploring second branch...
+                  exploring from kn
+                  unpowered wire, digging down...
+                  exploring from kk RSHIFT 5 kn
+                  exploring from kk
+                  unpowered wire, digging down...
+                  exploring from ki OR kj
+                  retrieved value from cache: 47728
+                  computed and cached 47728 RSHIFT 5 -> 1491
+                computed and cached 5966 OR 1491 -> 6111
+              AND gate, first value found (6111), exploring second branch...
+                exploring from kq
+                unpowered wire, digging down...
+                exploring from kp NOT kq
+                exploring from kp
+                unpowered wire, digging down...
+                exploring from km AND kn
+                AND gate, branching out
+                  exploring from km
+                  unpowered wire, digging down...
+                  exploring from kk RSHIFT 3 km
+                  retrieved value from cache: 5966
+                AND gate, first value found (5966), exploring second branch...
+                  exploring from kn
+                  unpowered wire, digging down...
+                  exploring from kk RSHIFT 5 kn
+                  retrieved value from cache: 1491
+                computed and cached 5966 AND 1491 -> 1346
+                computed and cached NOT 1346 -> 64189
+              computed and cached 6111 AND 64189 -> 4765
+            computed and cached 11932 OR 4765 -> 16029
+          AND gate, first value found (16029), exploring second branch...
+            exploring from ku
+            unpowered wire, digging down...
+            exploring from kt NOT ku
+            exploring from kt
+            unpowered wire, digging down...
+            exploring from kl AND kr
+            AND gate, branching out
+              exploring from kl
+              unpowered wire, digging down...
+              exploring from kk RSHIFT 2 kl
+              retrieved value from cache: 11932
+            AND gate, first value found (11932), exploring second branch...
+              exploring from kr
+              unpowered wire, digging down...
+              exploring from ko AND kq
+              retrieved value from cache: 4765
+            computed and cached 11932 AND 4765 -> 668
+            computed and cached NOT 668 -> 64867
+          computed and cached 16029 AND 64867 -> 15361
+        computed and cached 47728 OR 15361 -> 48753
+      AND gate, first value found (48753), exploring second branch...
+        exploring from ky
+        unpowered wire, digging down...
+        exploring from kx NOT ky
+        exploring from kx
+        unpowered wire, digging down...
+        exploring from kk AND kv
+        AND gate, branching out
+          exploring from kk
+          unpowered wire, digging down...
+          exploring from ki OR kj
+          retrieved value from cache: 47728
+        AND gate, first value found (47728), exploring second branch...
+          exploring from kv
+          unpowered wire, digging down...
+          exploring from ks AND ku
+          retrieved value from cache: 15361
+        computed and cached 47728 AND 15361 -> 14336
+        computed and cached NOT 14336 -> 51199
+      computed and cached 48753 AND 51199 -> 34417
+    computed and cached 1 AND 34417 -> 1
+  computed and cached 7354 OR 1 -> 7355
+  computed and cached 7355 LSHIFT 1 -> 14710
+OR gate, first value found (14710), exploring second branch...
+  exploring from lv
+  unpowered wire, digging down...
+  exploring from 1 AND lu
+  AND gate, branching out
+    exploring from 1
+    retrieved value from cache: 1
+  AND gate, first value found (1), exploring second branch...
+    exploring from lu
+    unpowered wire, digging down...
+    exploring from lr AND lt
+    AND gate, branching out
+      exploring from lr
+      unpowered wire, digging down...
+      exploring from lf OR lq
+      OR gate, branching out
+        exploring from lf
+        unpowered wire, digging down...
+        exploring from ld OR le
+        OR gate, branching out
+          exploring from ld
+          unpowered wire, digging down...
+          exploring from kk RSHIFT 1 ld
+          exploring from kk
+          unpowered wire, digging down...
+          exploring from ki OR kj
+          retrieved value from cache: 47728
+          computed and cached 47728 RSHIFT 1 -> 23864
+        OR gate, first value found (23864), exploring second branch...
+          exploring from le
+          unpowered wire, digging down...
+          exploring from la LSHIFT 15 le
+          exploring from la
+          unpowered wire, digging down...
+          exploring from 1 AND kz
+          retrieved value from cache: 1
+          computed and cached 1 LSHIFT 15 -> 32768
+        computed and cached 23864 OR 32768 -> 56632
+      OR gate, first value found (56632), exploring second branch...
+        exploring from lq
+        unpowered wire, digging down...
+        exploring from ln AND lp
+        AND gate, branching out
+          exploring from ln
+          unpowered wire, digging down...
+          exploring from lg OR lm
+          OR gate, branching out
+            exploring from lg
+            unpowered wire, digging down...
+            exploring from lf RSHIFT 2 lg
+            exploring from lf
+            unpowered wire, digging down...
+            exploring from ld OR le
+            retrieved value from cache: 56632
+            computed and cached 56632 RSHIFT 2 -> 14158
+          OR gate, first value found (14158), exploring second branch...
+            exploring from lm
+            unpowered wire, digging down...
+            exploring from lj AND ll
+            AND gate, branching out
+              exploring from lj
+              unpowered wire, digging down...
+              exploring from lh OR li
+              OR gate, branching out
+                exploring from lh
+                unpowered wire, digging down...
+                exploring from lf RSHIFT 3 lh
+                exploring from lf
+                unpowered wire, digging down...
+                exploring from ld OR le
+                retrieved value from cache: 56632
+                computed and cached 56632 RSHIFT 3 -> 7079
+              OR gate, first value found (7079), exploring second branch...
+                exploring from li
+                unpowered wire, digging down...
+                exploring from lf RSHIFT 5 li
+                exploring from lf
+                unpowered wire, digging down...
+                exploring from ld OR le
+                retrieved value from cache: 56632
+                computed and cached 56632 RSHIFT 5 -> 1769
+              computed and cached 7079 OR 1769 -> 8175
+            AND gate, first value found (8175), exploring second branch...
+              exploring from ll
+              unpowered wire, digging down...
+              exploring from lk NOT ll
+              exploring from lk
+              unpowered wire, digging down...
+              exploring from lh AND li
+              AND gate, branching out
+                exploring from lh
+                unpowered wire, digging down...
+                exploring from lf RSHIFT 3 lh
+                retrieved value from cache: 7079
+              AND gate, first value found (7079), exploring second branch...
+                exploring from li
+                unpowered wire, digging down...
+                exploring from lf RSHIFT 5 li
+                retrieved value from cache: 1769
+              computed and cached 7079 AND 1769 -> 673
+              computed and cached NOT 673 -> 64862
+            computed and cached 8175 AND 64862 -> 7502
+          computed and cached 14158 OR 7502 -> 16206
+        AND gate, first value found (16206), exploring second branch...
+          exploring from lp
+          unpowered wire, digging down...
+          exploring from lo NOT lp
+          exploring from lo
+          unpowered wire, digging down...
+          exploring from lg AND lm
+          AND gate, branching out
+            exploring from lg
+            unpowered wire, digging down...
+            exploring from lf RSHIFT 2 lg
+            retrieved value from cache: 14158
+          AND gate, first value found (14158), exploring second branch...
+            exploring from lm
+            unpowered wire, digging down...
+            exploring from lj AND ll
+            retrieved value from cache: 7502
+          computed and cached 14158 AND 7502 -> 5454
+          computed and cached NOT 5454 -> 60081
+        computed and cached 16206 AND 60081 -> 10752
+      computed and cached 56632 OR 10752 -> 65336
+    AND gate, first value found (65336), exploring second branch...
+      exploring from lt
+      unpowered wire, digging down...
+      exploring from ls NOT lt
+      exploring from ls
+      unpowered wire, digging down...
+      exploring from lf AND lq
+      AND gate, branching out
+        exploring from lf
+        unpowered wire, digging down...
+        exploring from ld OR le
+        retrieved value from cache: 56632
+      AND gate, first value found (56632), exploring second branch...
+        exploring from lq
+        unpowered wire, digging down...
+        exploring from ln AND lp
+        retrieved value from cache: 10752
+      computed and cached 56632 AND 10752 -> 2048
+      computed and cached NOT 2048 -> 63487
+    computed and cached 65336 AND 63487 -> 63288
+  computed and cached 1 AND 63288 -> 0
+computed and cached 14710 OR 0 -> 14710

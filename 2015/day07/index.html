@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Bobby's Circuit</title>
+    <style>
+      body {
+        margin: 0;
+        background: #111111;
+        color: #aaeeaa;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas></canvas>
+    <script>
+      const canvas = document.querySelector("canvas");
+      const ctx = canvas.getContext("2d");
+
+      window.addEventListener("resize", resize);
+      resize();
+
+      fetch("./graph.json")
+        .then((response) => response.json())
+        .then((graph) => {
+          console.log(graph);
+          draw(graph);
+        });
+
+      function draw(graph) {
+        const spacing = 18;
+        const nodes = Object.keys(graph);
+
+        let y = spacing * 2;
+
+        for (const source of nodes) {
+          const visited = new Set();
+          const path = explore(graph, source, visited);
+          console.log(path);
+
+          let x = spacing * 2;
+          for (const node of path) {
+            drawNode(node, { x, y });
+            x += spacing * 4;
+          }
+          y += spacing * 4;
+        }
+      }
+
+      function explore(graph, node, visited) {
+        const stack = [node];
+        const path = [];
+
+        while (stack.length > 0) {
+          console.log({ node, visited, stack });
+          const current = stack.pop();
+          if (visited.has(current)) continue;
+          visited.add(current);
+          path.push(current);
+
+          if (!graph[current]) {
+            continue;
+          }
+
+          for (const neighbor of graph[current]) {
+            stack.push(neighbor);
+          }
+        }
+
+        return path;
+      }
+
+      function drawNode(
+        node,
+        pos,
+        rad = 18,
+        fillStyle = "#112211",
+        strokeStyle = "#aaeeaa"
+      ) {
+        ctx.beginPath();
+        ctx.arc(pos.x, pos.y, rad, 0, Math.PI * 2);
+        ctx.fillStyle = fillStyle;
+        ctx.strokeStyle = strokeStyle;
+        ctx.fill();
+        ctx.stroke();
+        ctx.font = "1rem Courier New";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        ctx.strokeText(node, pos.x, pos.y);
+        ctx.closePath();
+      }
+
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+    </script>
+  </body>
+</html>

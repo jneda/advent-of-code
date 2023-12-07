@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍴</text></svg>"
+    />
+    <title>Knights of the Dinner Table</title>
+    <style>
+      body {
+        background: #000f00;
+        color: #cfefcf;
+        font-family: sans-serif;
+        margin: 0;
+        /* image-rendering: crisp-edges; */
+      }
+    </style>
+  </head>
+  <body>
+    <canvas></canvas>
+    <script>
+      const DARK = "#000f00";
+      const BRIGHT = "#cfefcf";
+      const SPACING = 24;
+      const SCALING = 3;
+      const START = "A";
+
+      const canvas = document.querySelector("canvas");
+      const ctx = canvas.getContext("2d");
+
+      window.addEventListener("resize", () => resize());
+
+      let graph = buildGraph(4);
+      let paths = findPaths(graph);
+
+      console.log(`${paths.length} paths found`);
+
+      const MAX_WIDTH = SCALING * SPACING * paths[0].length;
+      const MAX_HEIGHT = SCALING * SPACING * paths.length;
+      const PADDING = 2 * SPACING;
+      resize(MAX_WIDTH + PADDING, MAX_HEIGHT + PADDING);
+
+      const nodes = [];
+
+      for (let i = 0; i < paths.length; i++) {
+        nodes.push(...makeNodes(paths[i], i));
+      }
+
+      // console.log(nodes.map((n) => n.position));
+
+      draw();
+
+      function findPaths(graph) {
+        const maxSteps = Object.entries(graph).length - 1;
+        const paths = [];
+        const cameFrom = new Set();
+
+        const stack = [makeSearchObject(START, 0, cameFrom, null)];
+        while (stack.length > 0) {
+          const current = stack.pop();
+          const { currentNode, steps, cameFrom, parent } = current;
+
+          if (cameFrom.has(currentNode)) continue;
+          cameFrom.add(currentNode);
+
+          if (steps === maxSteps) {
+            paths.push(Array.from(cameFrom));
+            continue;
+          }
+
+          for (const neighbor of graph[currentNode]) {
+            if (neighbor !== parent)
+              stack.push(
+                makeSearchObject(
+                  neighbor,
+                  steps + 1,
+                  new Set(cameFrom),
+                  currentNode
+                )
+              );
+          }
+        }
+
+        return paths;
+      }
+
+      function buildGraph(size) {
+        const graph = {};
+        const nodes = [];
+        for (let i = 0; i < size; i++) {
+          nodes.push(indexToChar(i));
+        }
+        for (const node of nodes) {
+          graph[node] = [];
+          const neighbors = [...nodes].filter((n) => n !== node);
+          for (const neighbor of neighbors) {
+            graph[node].push(neighbor);
+          }
+        }
+        return graph;
+      }
+
+      function makeNodes(nodesList = [], col = 0) {
+        const nodes = [];
+        for (let i = 0; i < nodesList.length; i++) {
+          const x = SPACING * 2 + SPACING * SCALING * i;
+          const y = SPACING * 2 + SPACING * SCALING * col;
+          nodes.push({
+            position: {
+              x,
+              y,
+            },
+            r: SPACING,
+            bg: DARK,
+            fg: BRIGHT,
+            label: nodesList[i],
+          });
+        }
+        return nodes;
+      }
+
+      function draw() {
+        for (const node of nodes) {
+          drawNode(node);
+        }
+
+        requestAnimationFrame(draw);
+      }
+
+      function drawNode(node) {
+        ctx.beginPath();
+        const { x, y } = node.position;
+        const { label, r, bg, fg } = node;
+        ctx.arc(x, y, r, 0, Math.PI * 2);
+        ctx.fillStyle = bg;
+        ctx.strokeStyle = fg;
+        ctx.lineWidth = 1.5;
+        ctx.fill();
+        ctx.stroke();
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        ctx.font = "32px sans-serif";
+        ctx.fillStyle = fg;
+        ctx.fillText(label, x, y);
+        ctx.closePath();
+      }
+
+      function resize(w = 0, h = 0) {
+        w = Math.max(w, window.innerWidth);
+        h = Math.max(h, window.innerHeight);
+        console.log({ w, h });
+        canvas.width = w;
+        canvas.height = h;
+      }
+
+      function indexToChar(i) {
+        const A = "A".charCodeAt(0);
+        return String.fromCharCode(i + A);
+      }
+
+      function makeSearchObject(currentNode, steps, cameFrom, parent) {
+        return {
+          currentNode,
+          steps,
+          cameFrom,
+          parent,
+        };
+      }
+    </script>
+  </body>
+</html>
