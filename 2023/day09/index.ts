@@ -79,10 +79,28 @@ function extrapolate(diffSeq: number[][]) {
   return lastValues.reduce((a, b) => a + b);
 }
 
+/**
+ * Extrapolates the negative difference between the first elements of each array in a sequence.
+ *
+ * @param diffSeq - The sequence of arrays containing numbers.
+ * @returns The negative extrapolation of the difference between the first elements of each array.
+ *
+ * @example
+ * const diffSeq = [ [ 0, 3, 6, 9, 12, 15 ], [ 3, 3, 3, 3, 3 ], [ 0, 0, 0, 0 ] ];
+ * const result = negativeExtrapolate(diffSeq);
+ * console.log(result); // Output: -3
+ */
+function negativeExtrapolate(diffSeq: number[][]) {
+  // ditch the 0s & reverse
+  diffSeq = diffSeq.slice(0, -1).reverse();
+  // reduce by finding the difference between the first elements of each array
+  return diffSeq.map((seq) => seq[0]).reduce((a, b) => b - a);
+}
+
 async function main() {
   let data: string[];
   try {
-    data = await readFile("test.txt");
+    data = await readFile("input.txt");
   } catch (error) {
     console.log(error);
     return 1;
@@ -93,11 +111,16 @@ async function main() {
   );
   const diffSequences = histories.map((history) => getDiffSequences(history));
 
-  const extrapolatedSum = diffSequences
-    .map((diffSeq) => extrapolate(diffSeq))
-    .reduce((a, b) => a + b);
+  // const extrapolatedSum = diffSequences
+  //   .map((diffSeq) => extrapolate(diffSeq))
+  //   .reduce((a, b) => a + b);
 
-  console.log(extrapolatedSum);
+  // console.log(extrapolatedSum);
+
+  const negativeExtrapolateSum = diffSequences
+    .map((seq) => negativeExtrapolate(seq))
+    .reduce((a, b) => a + b);
+  console.log(negativeExtrapolateSum);
 }
 
 if (process.env.NODE_ENV !== "test") main();
