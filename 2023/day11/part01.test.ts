@@ -1,10 +1,40 @@
 import { expect } from "chai";
-import {
-  buildPairs,
-  findGalaxies,
-  getPathLength,
-  findEmptyRowsAndCols,
-} from ".";
+import { buildPairs, expand, findGalaxies, getPathLength } from ".";
+
+describe("expand", () => {
+  describe("given a valid array of strings", () => {
+    it("should return the correct array", () => {
+      const input = [
+        "...#......",
+        ".......#..",
+        "#.........",
+        "..........",
+        "......#...",
+        ".#........",
+        ".........#",
+        "..........",
+        ".......#..",
+        "#...#.....",
+      ];
+      const expected = [
+        "....#........",
+        ".........#...",
+        "#............",
+        ".............",
+        ".............",
+        "........#....",
+        ".#...........",
+        "............#",
+        ".............",
+        ".............",
+        ".........#...",
+        "#....#.......",
+      ];
+      const actual = expand(input);
+      expect(actual).to.deep.equal(expected);
+    });
+  });
+});
 
 describe("buildPairs", () => {
   describe("given an array of values", () => {
@@ -58,43 +88,22 @@ describe("findGalaxies", () => {
   });
 });
 
+
 describe("getPathLength", () => {
   describe("given start and end points", () => {
     it("should return the correct path length", () => {
-      const empty = { rows: [7, 3], cols: [8, 5, 2] };
-      const factor = 10;
       const inputs = [
-        ["3,0", "7,1"],
-        ["3,0", "6,4"],
+        ["1,6", "5,11"],
+        ["4,0", "9,10"],
+        ["0,2", "12,7"],
+        ["0,11", "5,11"],
       ];
-      const expected = [14, 25];
+      const expected = [9, 15, 17, 5];
       inputs.forEach((input, index) => {
         const [start, end] = input;
-        const actual = getPathLength(start, end, empty, factor);
+        const actual = getPathLength(start, end);
         expect(actual).to.equal(expected[index]);
       });
-    });
-  });
-});
-
-describe("findEmptyRowsAndCols", () => {
-  describe("given an array of strings", () => {
-    it("should return the correct object of empty rows and columns", () => {
-      const input = [
-        "...#......",
-        ".......#..",
-        "#.........",
-        "..........",
-        "......#...",
-        ".#........",
-        ".........#",
-        "..........",
-        ".......#..",
-        "#...#.....",
-      ];
-      const actual = findEmptyRowsAndCols(input);
-      expect(actual.rows).to.have.deep.members([3, 7]);
-      expect(actual.cols).to.have.deep.members([2, 5, 8]);
     });
   });
 });
